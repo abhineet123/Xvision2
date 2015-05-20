@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Examples/xgest
+END
+HCIWindow.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/xgest/HCIWindow.cc
+END
+HCIWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/xgest/HCIWindow.h
+END
+Gesture.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/xgest/Gesture.cc
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/xgest/Makefile.in
+END
+Gesture.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/xgest/Gesture.h
+END
+HCISelector.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/xgest/HCISelector.cc
+END
+main.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/xgest/main.cc
+END
+HCISelector.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/xgest/HCISelector.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Examples/xgest/Makefile
+END
+prototypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/xgest/prototypes.h
+END

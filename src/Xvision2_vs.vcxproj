@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="consoles\test\interTest.cc" />
+    <ClCompile Include="consoles\test\test_consoles.cc" />
+    <ClCompile Include="consoles\XVRemoteWindowX.cc" />
+    <ClCompile Include="consoles\XVWindowX.cc" />
+    <ClCompile Include="devices\DV1394.cc" />
+    <ClCompile Include="devices\DVFrame.cc" />
+    <ClCompile Include="devices\matlab\grab_analog.cc" />
+    <ClCompile Include="devices\matlab\grab_digit.cc" />
+    <ClCompile Include="devices\matlab\grab_videre.cc" />
+    <ClCompile Include="devices\Meteor.cc" />
+    <ClCompile Include="devices\MRT.cc" />
+    <ClCompile Include="devices\StereoVidere.cc" />
+    <ClCompile Include="devices\VideoManager.cc" />
+    <ClCompile Include="devices\Videre.cc" />
+    <ClCompile Include="devices\XVAVI.cc" />
+    <ClCompile Include="devices\XVBt8x8.cc" />
+    <ClCompile Include="devices\XVDig.cc" />
+    <ClCompile Include="devices\XVDig1394_v1.cc" />
+    <ClCompile Include="devices\XVDig1394_v2.cc" />
+    <ClCompile Include="devices\XVFlea2G.cc" />
+    <ClCompile Include="devices\XVImageSeq.cc" />
+    <ClCompile Include="devices\XVMpeg.cc" />
+    <ClCompile Include="devices\XVPv.cc" />
+    <ClCompile Include="devices\XVPwc.cc" />
+    <ClCompile Include="devices\XVV4L2.cc" />
+    <ClCompile Include="devices\XVVideo.cc" />
+    <ClCompile Include="drivers\jpeg-6b\ansi2knr.c" />
+    <ClCompile Include="drivers\jpeg-6b\cdjpeg.c" />
+    <ClCompile Include="drivers\jpeg-6b\cjpeg.c" />
+    <ClCompile Include="drivers\jpeg-6b\ckconfig.c" />
+    <ClCompile Include="drivers\jpeg-6b\djpeg.c" />
+    <ClCompile Include="drivers\jpeg-6b\jcapimin.c" />
+    <ClCompile Include="drivers\jpeg-6b\jcapistd.c" />
+    <ClCompile Include="drivers\jpeg-6b\jccoefct.c" />
+    <ClCompile Include="drivers\jpeg-6b\jccolor.c" />
+    <ClCompile Include="drivers\jpeg-6b\jcdctmgr.c" />
+    <ClCompile Include="drivers\jpeg-6b\jchuff.c" />
+    <ClCompile Include="drivers\jpeg-6b\jcinit.c" />
+    <ClCompile Include="drivers\jpeg-6b\jcmainct.c" />
+    <ClCompile Include="drivers\jpeg-6b\jcmarker.c" />
+    <ClCompile Include="drivers\jpeg-6b\jcmaster.c" />
+    <ClCompile Include="drivers\jpeg-6b\jcomapi.c" />
+    <ClCompile Include="drivers\jpeg-6b\jcparam.c" />
+    <ClCompile Include="drivers\jpeg-6b\jcphuff.c" />
+    <ClCompile Include="drivers\jpeg-6b\jcprepct.c" />
+    <ClCompile Include="drivers\jpeg-6b\jcsample.c" />
+    <ClCompile Include="drivers\jpeg-6b\jctrans.c" />
+    <ClCompile Include="drivers\jpeg-6b\jdapimin.c" />
+    <ClCompile Include="drivers\jpeg-6b\jdapistd.c" />
+    <ClCompile Include="drivers\jpeg-6b\jdatadst.c" />
+    <ClCompile Include="drivers\jpeg-6b\jdatasrc.c" />
+    <ClCompile Include="drivers\jpeg-6b\jdcoefct.c" />
+    <ClCompile Include="drivers\jpeg-6b\jdcolor.c" />
+    <ClCompile Include="drivers\jpeg-6b\jddctmgr.c" />
+    <ClCompile Include="drivers\jpeg-6b\jdhuff.c" />
+    <ClCompile Include="drivers\jpeg-6b\jdinput.c" />
+    <ClCompile Include="drivers\jpeg-6b\jdmainct.c" />
+    <ClCompile Include="drivers\jpeg-6b\jdmarker.c" />
+    <ClCompile Include="drivers\jpeg-6b\jdmaster.c" />
+    <ClCompile Include="drivers\jpeg-6b\jdmerge.c" />
+    <ClCompile Include="drivers\jpeg-6b\jdphuff.c" />
+    <ClCompile Include="drivers\jpeg-6b\jdpostct.c" />
+    <ClCompile Include="drivers\jpeg-6b\jdsample.c" />
+    <ClCompile Include="drivers\jpeg-6b\jdtrans.c" />
+    <ClCompile Include="drivers\jpeg-6b\jerror.c" />
+    <ClCompile Include="drivers\jpeg-6b\jfdctflt.c" />
+    <ClCompile Include="drivers\jpeg-6b\jfdctfst.c" />
+    <ClCompile Include="drivers\jpeg-6b\jfdctint.c" />
+    <ClCompile Include="drivers\jpeg-6b\jidctflt.c" />
+    <ClCompile Include="drivers\jpeg-6b\jidctfst.c" />
+    <ClCompile Include="drivers\jpeg-6b\jidctint.c" />
+    <ClCompile Include="drivers\jpeg-6b\jidctred.c" />
+    <ClCompile Include="drivers\jpeg-6b\jmemansi.c" />
+    <ClCompile Include="drivers\jpeg-6b\jmemdos.c" />
+    <ClCompile Include="drivers\jpeg-6b\jmemmac.c" />
+    <ClCompile Include="drivers\jpeg-6b\jmemmgr.c" />
+    <ClCompile Include="drivers\jpeg-6b\jmemname.c" />
+    <ClCompile Include="drivers\jpeg-6b\jmemnobs.c" />
+    <ClCompile Include="drivers\jpeg-6b\jpegtran.c" />
+    <ClCompile Include="drivers\jpeg-6b\jquant1.c" />
+    <ClCompile Include="drivers\jpeg-6b\jquant2.c" />
+    <ClCompile Include="drivers\jpeg-6b\jutils.c" />
+    <ClCompile Include="drivers\jpeg-6b\rdbmp.c" />
+    <ClCompile Include="drivers\jpeg-6b\rdcolmap.c" />
+    <ClCompile Include="drivers\jpeg-6b\rdgif.c" />
+    <ClCompile Include="drivers\jpeg-6b\rdjpgcom.c" />
+    <ClCompile Include="drivers\jpeg-6b\rdppm.c" />
+    <ClCompile Include="drivers\jpeg-6b\rdrle.c" />
+    <ClCompile Include="drivers\jpeg-6b\rdswitch.c" />
+    <ClCompile Include="drivers\jpeg-6b\rdtarga.c" />
+    <ClCompile Include="drivers\jpeg-6b\testj.c" />
+    <ClCompile Include="drivers\jpeg-6b\transupp.c" />
+    <ClCompile Include="drivers\jpeg-6b\wrbmp.c" />
+    <ClCompile Include="drivers\jpeg-6b\wrgif.c" />
+    <ClCompile Include="drivers\jpeg-6b\wrjpgcom.c" />
+    <ClCompile Include="drivers\jpeg-6b\wrppm.c" />
+    <ClCompile Include="drivers\jpeg-6b\wrrle.c" />
+    <ClCompile Include="drivers\jpeg-6b\wrtarga.c" />
+    <ClCompile Include="drivers\libdv\bitstream.c" />
+    <ClCompile Include="drivers\libdv\dct.c" />
+    <ClCompile Include="drivers\libdv\dovlc.c" />
+    <ClCompile Include="drivers\libdv\encode.c" />
+    <ClCompile Include="drivers\libdv\gasmoff.c" />
+    <ClCompile Include="drivers\libdv\idct_248.c" />
+    <ClCompile Include="drivers\libdv\parse.c" />
+    <ClCompile Include="drivers\libdv\place.c" />
+    <ClCompile Include="drivers\libdv\quant.c" />
+    <ClCompile Include="drivers\libdv\testbitstream.c" />
+    <ClCompile Include="drivers\libdv\testdct.c" />
+    <ClCompile Include="drivers\libdv\testvlc.c" />
+    <ClCompile Include="drivers\libdv\vlc.c" />
+    <ClCompile Include="drivers\libdv\weighting.c" />
+    <ClCompile Include="drivers\libdv\ycrcb_to_rgb32.c" />
+    <ClCompile Include="drivers\meteor-1.5.4\examples\fgrab-0.8\fgrab_meteor-0.8.c" />
+    <ClCompile Include="drivers\meteor-1.5.4\examples\fgrab-0.8\fgrab_tkAppInit.c" />
+    <ClCompile Include="drivers\meteor-1.5.4\examples\mvid\mvid.c" />
+    <ClCompile Include="drivers\meteor-1.5.4\examples\several\several.c" />
+    <ClCompile Include="drivers\meteor-1.5.4\examples\single\mmap.c" />
+    <ClCompile Include="drivers\meteor-1.5.4\examples\single\single.c" />
+    <ClCompile Include="drivers\meteor-1.5.4\examples\snap-0.5\snap.c" />
+    <ClCompile Include="drivers\meteor-1.5.4\examples\vu4-color\colorDisplay.c" />
+    <ClCompile Include="drivers\meteor-1.5.4\examples\vu4-color\translate.c" />
+    <ClCompile Include="drivers\meteor-1.5.4\examples\vu4-color\vu4-color.c" />
+    <ClCompile Include="drivers\meteor-1.5.4\examples\vu\vu.cc" />
+    <ClCompile Include="drivers\meteor-1.5.4\meteor.c" />
+    <ClCompile Include="drivers\mpeg_lib-1.3.1\24bit.c" />
+    <ClCompile Include="drivers\mpeg_lib-1.3.1\2x2.c" />
+    <ClCompile Include="drivers\mpeg_lib-1.3.1\decoders.c" />
+    <ClCompile Include="drivers\mpeg_lib-1.3.1\fs2.c" />
+    <ClCompile Include="drivers\mpeg_lib-1.3.1\fs2fast.c" />
+    <ClCompile Include="drivers\mpeg_lib-1.3.1\fs4.c" />
+    <ClCompile Include="drivers\mpeg_lib-1.3.1\gdith.c" />
+    <ClCompile Include="drivers\mpeg_lib-1.3.1\globals.c" />
+    <ClCompile Include="drivers\mpeg_lib-1.3.1\gray.c" />
+    <ClCompile Include="drivers\mpeg_lib-1.3.1\hybrid.c" />
+    <ClCompile Include="drivers\mpeg_lib-1.3.1\hybriderr.c" />
+    <ClCompile Include="drivers\mpeg_lib-1.3.1\jrevdct.c" />
+    <ClCompile Include="drivers\mpeg_lib-1.3.1\mb_ordered.c" />
+    <ClCompile Include="drivers\mpeg_lib-1.3.1\mono.c" />
+    <ClCompile Include="drivers\mpeg_lib-1.3.1\motionvector.c" />
+    <ClCompile Include="drivers\mpeg_lib-1.3.1\ordered.c" />
+    <ClCompile Include="drivers\mpeg_lib-1.3.1\ordered2.c" />
+    <ClCompile Include="drivers\mpeg_lib-1.3.1\parseblock.c" />
+    <ClCompile Include="drivers\mpeg_lib-1.3.1\util.c" />
+    <ClCompile Include="drivers\mpeg_lib-1.3.1\video.c" />
+    <ClCompile Include="drivers\mpeg_lib-1.3.1\wrapper.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\fax3sm_winnt.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\mkspans.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_acorn.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_apple.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_atari.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_aux.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_close.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_codec.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_compress.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_dir.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_dirinfo.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_dirread.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_dirwrite.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_dumpmode.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_error.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_fax3.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_flush.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_getimage.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_jpeg.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_luv.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_lzw.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_msdos.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_next.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_open.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_packbits.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_pixarlog.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_predict.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_print.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_read.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_strip.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_swab.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_thunder.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_tile.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_unix.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_version.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_vms.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_warning.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_win3.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_win32.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_write.c" />
+    <ClCompile Include="drivers\tiff-v3.5.5\tif_zip.c" />
+    <ClCompile Include="examples\boxfxtest\boxfxtest.cc" />
+    <ClCompile Include="examples\color2\main.cc" />
+    <ClCompile Include="examples\colorupdating\main.cc" />
+    <ClCompile Include="examples\control_panel\main.cc" />
+    <ClCompile Include="examples\convert\convert.cc" />
+    <ClCompile Include="examples\convert\convert1.cc" />
+    <ClCompile Include="examples\dispfile\main.cc" />
+    <ClCompile Include="examples\filter\filter.cc" />
+    <ClCompile Include="examples\gesture\Gesture.cc" />
+    <ClCompile Include="examples\gesture\main.cc" />
+    <ClCompile Include="examples\imgiotest\imageIOTest.cc" />
+    <ClCompile Include="examples\interactivecolorselect\main.cc" />
+    <ClCompile Include="examples\itertest\itest.cc" />
+    <ClCompile Include="examples\main2\main2.cc" />
+    <ClCompile Include="examples\operate\operate.cc" />
+    <ClCompile Include="examples\play_avi\main.cc" />
+    <ClCompile Include="examples\pong2\main.cc" />
+    <ClCompile Include="examples\pong2\PongSelector.cc" />
+    <ClCompile Include="examples\pong2\PongWindow.cc" />
+    <ClCompile Include="examples\pong\main.cc" />
+    <ClCompile Include="examples\pong\PongWindow.cc" />
+    <ClCompile Include="examples\redres\redres.cc" />
+    <ClCompile Include="examples\remote\main.cc" />
+    <ClCompile Include="examples\showdig\main.cc" />
+    <ClCompile Include="examples\showdisp\main.cc" />
+    <ClCompile Include="examples\showdv\main.cc" />
+    <ClCompile Include="examples\showlive\main.cc" />
+    <ClCompile Include="examples\showpv\main.cc" />
+    <ClCompile Include="examples\showpwc\main.cc" />
+    <ClCompile Include="examples\show_v4l\main.cc" />
+    <ClCompile Include="examples\stream_stereo\main.cc" />
+    <ClCompile Include="examples\stream_stereo_color\main.cc" />
+    <ClCompile Include="examples\testing\main.cc" />
+    <ClCompile Include="examples\tracking\colorTracker.cc" />
+    <ClCompile Include="examples\tracking\edgeTracker.cc" />
+    <ClCompile Include="examples\tracking\ssdTracker.cc" />
+    <ClCompile Include="examples\tracking\ssdTracker_1.cc" />
+    <ClCompile Include="examples\tracking\ssdTracker_mod.cc" />
+    <ClCompile Include="examples\tracking\ssdTracker_orig.cc" />
+    <ClCompile Include="examples\transform\assigntest.cc" />
+    <ClCompile Include="examples\transform\nowindow.cc" />
+    <ClCompile Include="examples\transform\prog.cc" />
+    <ClCompile Include="examples\transform\transform.cc" />
+    <ClCompile Include="examples\warp\affinewarp.cc" />
+    <ClCompile Include="examples\warp\omniwarp.cc" />
+    <ClCompile Include="examples\warp\planewarp.cc" />
+    <ClCompile Include="examples\xcalc\HCISelector.cc" />
+    <ClCompile Include="examples\xcalc\HCIWindow.cc" />
+    <ClCompile Include="examples\xcalc\main.cc" />
+    <ClCompile Include="examples\xgest\Gesture.cc" />
+    <ClCompile Include="examples\xgest\HCISelector.cc" />
+    <ClCompile Include="examples\xgest\HCIWindow.cc" />
+    <ClCompile Include="examples\xgest\main.cc" />
+    <ClCompile Include="examples\xman\Gesture.cc" />
+    <ClCompile Include="examples\xman\HCIWindow.cc" />
+    <ClCompile Include="examples\xman\main.cc" />
+    <ClCompile Include="frp\Behavior.cc" />
+    <ClCompile Include="frp\Collectable.cc" />
+    <ClCompile Include="frp\Event.cc" />
+    <ClCompile Include="frp\Image.cc" />
+    <ClCompile Include="frp\ITest.cc" />
+    <ClCompile Include="frp\Nclient.c" />
+    <ClCompile Include="frp\Scout.cc" />
+    <ClCompile Include="frp\Task.cc" />
+    <ClCompile Include="frp\test\ATest.cc" />
+    <ClCompile Include="frp\test\BTest.cc" />
+    <ClCompile Include="frp\test\ITest.cc" />
+    <ClCompile Include="frp\test\RTest.cc" />
+    <ClCompile Include="frp\Track.cc" />
+    <ClCompile Include="images\test\convertTest.cc" />
+    <ClCompile Include="images\test\copyTest.cc" />
+    <ClCompile Include="images\test\gaussTest.cc" />
+    <ClCompile Include="images\test\maskedTest.cc" />
+    <ClCompile Include="images\test\pngTest.cc" />
+    <ClCompile Include="images\test\rowTest.cc" />
+    <ClCompile Include="images\XVColorBase.cc" />
+    <ClCompile Include="images\XVImageBase.cc" />
+    <ClCompile Include="images\XVImageBase.cpp" />
+    <ClCompile Include="images\XVImageHSV.cc" />
+    <ClCompile Include="images\XVImageRGB.cc" />
+    <ClCompile Include="images\XVImageScalar.cc" />
+    <ClCompile Include="images\XVImageYCbCr.cc" />
+    <ClCompile Include="images\XVImageYUV.cc" />
+    <ClCompile Include="images\XVImageYUV422.cc" />
+    <ClCompile Include="images\XVMaskedImage.cc" />
+    <ClCompile Include="images\XVPixel.cc" />
+    <ClCompile Include="segmentation\test\hueTest.cc" />
+    <ClCompile Include="segmentation\test\rangeTest.cc" />
+    <ClCompile Include="segmentation\XVColorSeg.cc" />
+    <ClCompile Include="segmentation\XVMotionSeg.cc" />
+    <ClCompile Include="segmentation\XVScalarSeg.cc" />
+    <ClCompile Include="segmentation\XVSegmentation.cc" />
+    <ClCompile Include="tools\sd.cc" />
+    <ClCompile Include="tools\test\crop.cc" />
+    <ClCompile Include="tools\test\test_tools.cc" />
+    <ClCompile Include="tools\XVAffineWarp.cc" />
+    <ClCompile Include="tools\XVGeometry.cc" />
+    <ClCompile Include="tools\XVLookupTable.cc" />
+    <ClCompile Include="tools\XVMatrix.cc" />
+    <ClCompile Include="tools\XVOmniWarper.cc" />
+    <ClCompile Include="tools\XVStereoRectify.cc" />
+    <ClCompile Include="tracking\blobs\XVBlobFeature.cc" />
+    <ClCompile Include="tracking\edges\XVEdgeFeature.cc" />
+    <ClCompile Include="tracking\edges\XVPattern.cc" />
+    <ClCompile Include="tracking\ssd\XVSSD.cc" />
+    <ClCompile Include="tracking\test\main.cc" />
+    <ClCompile Include="tracking\test\SSDtest.cc" />
+    <ClCompile Include="tracking\XVGroupTracker.cc" />
+    <ClCompile Include="tracking\XVTracker.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="consoles\XVDrawable.h" />
+    <ClInclude Include="consoles\XVInteractive.h" />
+    <ClInclude Include="consoles\XVRemoteWindowX.h" />
+    <ClInclude Include="consoles\XVWindow.h" />
+    <ClInclude Include="consoles\XVWindowX.h" />
+    <ClInclude Include="devices\bt819.h" />
+    <ClInclude Include="devices\DV1394.h" />
+    <ClInclude Include="devices\DVFrame.h" />
+    <ClInclude Include="devices\ieee1394-ioctl.h" />
+    <ClInclude Include="devices\Meteor.h" />
+    <ClInclude Include="devices\Mrt.h" />
+    <ClInclude Include="devices\mrt_cs.h" />
+    <ClInclude Include="devices\pwc-ioctl.h" />
+    <ClInclude Include="devices\StereoVidere.h" />
+    <ClInclude Include="devices\video1394.h" />
+    <ClInclude Include="devices\VideoManager.h" />
+    <ClInclude Include="devices\Videre.h" />
+    <ClInclude Include="devices\XVAVI.h" />
+    <ClInclude Include="devices\XVBt8x8.h" />
+    <ClInclude Include="devices\XVDig.h" />
+    <ClInclude Include="devices\XVDig1394_v1.h" />
+    <ClInclude Include="devices\XVDig1394_v2.h" />
+    <ClInclude Include="devices\XVFlea2G.h" />
+    <ClInclude Include="devices\XVImageSeq.h" />
+    <ClInclude Include="devices\XVMpeg.h" />
+    <ClInclude Include="devices\XVPv.h" />
+    <ClInclude Include="devices\XVPwc.h" />
+    <ClInclude Include="devices\XVV4L2.h" />
+    <ClInclude Include="devices\XVVideo.h" />
+    <ClInclude Include="drivers\jpeg-6b\cderror.h" />
+    <ClInclude Include="drivers\jpeg-6b\cdjpeg.h" />
+    <ClInclude Include="drivers\jpeg-6b\jchuff.h" />
+    <ClInclude Include="drivers\jpeg-6b\jconfig.h" />
+    <ClInclude Include="drivers\jpeg-6b\jdct.h" />
+    <ClInclude Include="drivers\jpeg-6b\jdhuff.h" />
+    <ClInclude Include="drivers\jpeg-6b\jerror.h" />
+    <ClInclude Include="drivers\jpeg-6b\jinclude.h" />
+    <ClInclude Include="drivers\jpeg-6b\jmemsys.h" />
+    <ClInclude Include="drivers\jpeg-6b\jmorecfg.h" />
+    <ClInclude Include="drivers\jpeg-6b\jpegint.h" />
+    <ClInclude Include="drivers\jpeg-6b\jpeglib.h" />
+    <ClInclude Include="drivers\jpeg-6b\jversion.h" />
+    <ClInclude Include="drivers\jpeg-6b\transupp.h" />
+    <ClInclude Include="drivers\libdv\bitstream.h" />
+    <ClInclude Include="drivers\libdv\dct.h" />
+    <ClInclude Include="drivers\libdv\dv.h" />
+    <ClInclude Include="drivers\libdv\idct_248.h" />
+    <ClInclude Include="drivers\libdv\mmx.h" />
+    <ClInclude Include="drivers\libdv\parse.h" />
+    <ClInclude Include="drivers\libdv\place.h" />
+    <ClInclude Include="drivers\libdv\quant.h" />
+    <ClInclude Include="drivers\libdv\vlc.h" />
+    <ClInclude Include="drivers\libdv\weighting.h" />
+    <ClInclude Include="drivers\libdv\ycrcb_to_rgb32.h" />
+    <ClInclude Include="drivers\meteor-1.5.4\examples\fgrab-0.8\fgrab_meteor-0.8.h" />
+    <ClInclude Include="drivers\meteor-1.5.4\examples\vu4-color\colorDisplay.h" />
+    <ClInclude Include="drivers\meteor-1.5.4\examples\vu4-color\newcolors.h" />
+    <ClInclude Include="drivers\meteor-1.5.4\examples\vu4-color\translate.h" />
+    <ClInclude Include="drivers\meteor-1.5.4\ioctl_meteor.h" />
+    <ClInclude Include="drivers\meteor-1.5.4\k_compat.h" />
+    <ClInclude Include="drivers\meteor-1.5.4\meteor.h" />
+    <ClInclude Include="drivers\meteor-1.5.4\saa71x6.h" />
+    <ClInclude Include="drivers\mpeg_lib-1.3.1\config.h" />
+    <ClInclude Include="drivers\mpeg_lib-1.3.1\decoders.h" />
+    <ClInclude Include="drivers\mpeg_lib-1.3.1\dither.h" />
+    <ClInclude Include="drivers\mpeg_lib-1.3.1\fs2.h" />
+    <ClInclude Include="drivers\mpeg_lib-1.3.1\fs4.h" />
+    <ClInclude Include="drivers\mpeg_lib-1.3.1\globals.h" />
+    <ClInclude Include="drivers\mpeg_lib-1.3.1\mpeg.h" />
+    <ClInclude Include="drivers\mpeg_lib-1.3.1\my_dmalloc.h" />
+    <ClInclude Include="drivers\mpeg_lib-1.3.1\proto.h" />
+    <ClInclude Include="drivers\mpeg_lib-1.3.1\util.h" />
+    <ClInclude Include="drivers\mpeg_lib-1.3.1\video.h" />
+    <ClInclude Include="drivers\tiff-v3.5.5\port.h" />
+    <ClInclude Include="drivers\tiff-v3.5.5\t4.h" />
+    <ClInclude Include="drivers\tiff-v3.5.5\tiff.h" />
+    <ClInclude Include="drivers\tiff-v3.5.5\tiffcomp.h" />
+    <ClInclude Include="drivers\tiff-v3.5.5\tiffconf.h" />
+    <ClInclude Include="drivers\tiff-v3.5.5\tiffio.h" />
+    <ClInclude Include="drivers\tiff-v3.5.5\tiffiop.h" />
+    <ClInclude Include="drivers\tiff-v3.5.5\tif_dir.h" />
+    <ClInclude Include="drivers\tiff-v3.5.5\tif_fax3.h" />
+    <ClInclude Include="drivers\tiff-v3.5.5\tif_predict.h" />
+    <ClInclude Include="drivers\tiff-v3.5.5\uvcode.h" />
+    <ClInclude Include="examples\gesture\Gesture.h" />
+    <ClInclude Include="examples\pong2\PongSelector.h" />
+    <ClInclude Include="examples\pong2\PongWindow.h" />
+    <ClInclude Include="examples\pong\PongWindow.h" />
+    <ClInclude Include="examples\xcalc\HCISelector.h" />
+    <ClInclude Include="examples\xcalc\HCIWindow.h" />
+    <ClInclude Include="examples\xcalc\prototypes.h" />
+    <ClInclude Include="examples\xgest\Gesture.h" />
+    <ClInclude Include="examples\xgest\HCISelector.h" />
+    <ClInclude Include="examples\xgest\HCIWindow.h" />
+    <ClInclude Include="examples\xgest\prototypes.h" />
+    <ClInclude Include="examples\xman\Gesture.h" />
+    <ClInclude Include="examples\xman\HCISelector.h" />
+    <ClInclude Include="examples\xman\HCIWindow.h" />
+    <ClInclude Include="examples\xman\prototypes.h" />
+    <ClInclude Include="frp\Behavior.h" />
+    <ClInclude Include="frp\Collectable.h" />
+    <ClInclude Include="frp\Event.h" />
+    <ClInclude Include="frp\Functoid.h" />
+    <ClInclude Include="frp\Image.h" />
+    <ClInclude Include="frp\Lambda.h" />
+    <ClInclude Include="frp\Nclient.h" />
+    <ClInclude Include="frp\NoCollectable.h" />
+    <ClInclude Include="frp\Scout.h" />
+    <ClInclude Include="frp\Task.h" />
+    <ClInclude Include="frp\Track.h" />
+    <ClInclude Include="images\XVColorImage.h" />
+    <ClInclude Include="images\XVImageBase.h" />
+    <ClInclude Include="images\XVImageHSI.h" />
+    <ClInclude Include="images\XVImageHSV.h" />
+    <ClInclude Include="images\XVImageIO.h" />
+    <ClInclude Include="images\XVImageIterator.h" />
+    <ClInclude Include="images\XVImageRGB.h" />
+    <ClInclude Include="images\XVImageScalar.h" />
+    <ClInclude Include="images\XVImageYCbCr.h" />
+    <ClInclude Include="images\XVImageYUV.h" />
+    <ClInclude Include="images\XVImageYUV422.h" />
+    <ClInclude Include="images\XVMaskedImage.h" />
+    <ClInclude Include="images\XVPixel.h" />
+    <ClInclude Include="segmentation\XVColorSeg.h" />
+    <ClInclude Include="segmentation\XVMotionSeg.h" />
+    <ClInclude Include="segmentation\XVScalarSeg.h" />
+    <ClInclude Include="segmentation\XVSegmentation.h" />
+    <ClInclude Include="tools\camera_config.h" />
+    <ClInclude Include="tools\Stereo.h" />
+    <ClInclude Include="tools\XVAffineWarp.h" />
+    <ClInclude Include="tools\XVException.h" />
+    <ClInclude Include="tools\XVGeometry.h" />
+    <ClInclude Include="tools\XVList.h" />
+    <ClInclude Include="tools\XVLookupTable.h" />
+    <ClInclude Include="tools\XVMacros.h" />
+    <ClInclude Include="tools\XVMatrix.h" />
+    <ClInclude Include="tools\XVOmniWarper.h" />
+    <ClInclude Include="tools\XVRectRaster.h" />
+    <ClInclude Include="tools\XVStereoRectify.h" />
+    <ClInclude Include="tools\XVStereoRectifyTypes.h" />
+    <ClInclude Include="tools\XVTools.h" />
+    <ClInclude Include="tracking\blobs\XVBlobFeature.h" />
+    <ClInclude Include="tracking\blobs\XVBlobs.h" />
+    <ClInclude Include="tracking\edges\XVEdgeFeature.h" />
+    <ClInclude Include="tracking\edges\XVPattern.h" />
+    <ClInclude Include="tracking\ssd\XVSSD.h" />
+    <ClInclude Include="tracking\XVFeature.h" />
+    <ClInclude Include="tracking\XVGroupTracker.h" />
+    <ClInclude Include="tracking\XVTracker.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="drivers\meteor-1.5.4\meteorman.html" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

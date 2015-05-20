@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/examples/single
+END
+single.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/examples/single/single.c
+END
+mmap.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/examples/single/mmap.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/examples/single/Makefile
+END

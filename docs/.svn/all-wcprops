@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/xvision2/!svn/ver/7/Trunk/XVision2/docs
+END
+XVision2doc
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/XVision2doc
+END
+add_copyright.pl
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/add_copyright.pl
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/Makefile
+END
+doxygen
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/doxygen
+END

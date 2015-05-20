@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/xvision2/!svn/ver/162/Trunk/XVision2
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/xvision2/!svn/ver/125/Trunk/XVision2/configure
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/xvision2/!svn/ver/33/Trunk/XVision2/Makefile.in
+END
+CHANGELOG.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/xvision2/!svn/ver/11/Trunk/XVision2/CHANGELOG.txt
+END
+configure.in
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/xvision2/!svn/ver/125/Trunk/XVision2/configure.in
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/xvision2/!svn/ver/151/Trunk/XVision2/INSTALL
+END
+config.status
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/xvision2/!svn/ver/152/Trunk/XVision2/config.status
+END
+Copyright
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/xvision2/!svn/ver/14/Trunk/XVision2/Copyright
+END
+xvision2.spec
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/xvision2/!svn/ver/32/Trunk/XVision2/xvision2.spec
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/xvision2/!svn/ver/111/Trunk/XVision2/Makefile
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/xvision2/!svn/ver/16/Trunk/XVision2/install-sh
+END

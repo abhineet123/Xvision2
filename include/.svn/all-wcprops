@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/xvision2/!svn/ver/140/Trunk/XVision2/include
+END
+config.h.in
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/xvision2/!svn/ver/106/Trunk/XVision2/include/config.h.in
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/xvision2/!svn/ver/140/Trunk/XVision2/include/Makefile.in
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/xvision2/!svn/ver/140/Trunk/XVision2/include/Makefile
+END
+videodev2.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/xvision2/!svn/ver/8/Trunk/XVision2/include/videodev2.h
+END

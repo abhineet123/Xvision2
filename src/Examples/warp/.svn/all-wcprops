@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Examples/warp
+END
+omniwarp.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/warp/omniwarp.cc
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/warp/Makefile.in
+END
+affinewarp.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/warp/affinewarp.cc
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Examples/warp/Makefile
+END
+planewarp.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/warp/planewarp.cc
+END

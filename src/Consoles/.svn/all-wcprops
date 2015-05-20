@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/xvision2/!svn/ver/153/Trunk/XVision2/src/Consoles
+END
+XVRemoteWindowX.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/87/Trunk/XVision2/src/Consoles/XVRemoteWindowX.h
+END
+XVInteractive.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Consoles/XVInteractive.h
+END
+XVWindowX.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/75/Trunk/XVision2/src/Consoles/XVWindowX.cc
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/xvision2/!svn/ver/20/Trunk/XVision2/src/Consoles/Makefile.in
+END
+XVWindowX.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/xvision2/!svn/ver/75/Trunk/XVision2/src/Consoles/XVWindowX.h
+END
+XVDrawable.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/75/Trunk/XVision2/src/Consoles/XVDrawable.h
+END
+XVWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Consoles/XVWindow.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Consoles/Makefile
+END
+XVRemoteWindowX.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/153/Trunk/XVision2/src/Consoles/XVRemoteWindowX.cc
+END

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc87f713-861f-4e18-b9fa-2084c8513bdd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/play_avi/.depend" afterPath="$PROJECT_DIR$/src/Examples/play_avi/.depend" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/show_v4l/.depend" afterPath="$PROJECT_DIR$/src/Examples/show_v4l/.depend" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/showlive/.depend" afterPath="$PROJECT_DIR$/src/Examples/showlive/.depend" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Consoles/Test/Makefile" afterPath="$PROJECT_DIR$/src/Consoles/Test/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Devices/matlab/Makefile" afterPath="$PROJECT_DIR$/src/Devices/matlab/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/Makefile" afterPath="$PROJECT_DIR$/src/Examples/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/Itertest/Makefile" afterPath="$PROJECT_DIR$/src/Examples/Itertest/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/filter/Makefile" afterPath="$PROJECT_DIR$/src/Examples/filter/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/gesture/Makefile" afterPath="$PROJECT_DIR$/src/Examples/gesture/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/imgIOTest/Makefile" afterPath="$PROJECT_DIR$/src/Examples/imgIOTest/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/main2/Makefile" afterPath="$PROJECT_DIR$/src/Examples/main2/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/play_avi/Makefile" afterPath="$PROJECT_DIR$/src/Examples/play_avi/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/pong/Makefile" afterPath="$PROJECT_DIR$/src/Examples/pong/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/pong2/Makefile" afterPath="$PROJECT_DIR$/src/Examples/pong2/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/redres/Makefile" afterPath="$PROJECT_DIR$/src/Examples/redres/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/show_v4l/Makefile" afterPath="$PROJECT_DIR$/src/Examples/show_v4l/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/showdig/Makefile" afterPath="$PROJECT_DIR$/src/Examples/showdig/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/showdisp/Makefile" afterPath="$PROJECT_DIR$/src/Examples/showdisp/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/showdv/Makefile" afterPath="$PROJECT_DIR$/src/Examples/showdv/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/showlive/Makefile" afterPath="$PROJECT_DIR$/src/Examples/showlive/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/showpv/Makefile" afterPath="$PROJECT_DIR$/src/Examples/showpv/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/stream_stereo/Makefile" afterPath="$PROJECT_DIR$/src/Examples/stream_stereo/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/stream_stereo_color/Makefile" afterPath="$PROJECT_DIR$/src/Examples/stream_stereo_color/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/testing/Makefile" afterPath="$PROJECT_DIR$/src/Examples/testing/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/tracking/Makefile" afterPath="$PROJECT_DIR$/src/Examples/tracking/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/transform/Makefile" afterPath="$PROJECT_DIR$/src/Examples/transform/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/warp/Makefile" afterPath="$PROJECT_DIR$/src/Examples/warp/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/xcalc/Makefile" afterPath="$PROJECT_DIR$/src/Examples/xcalc/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/xgest/Makefile" afterPath="$PROJECT_DIR$/src/Examples/xgest/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/xman/Makefile" afterPath="$PROJECT_DIR$/src/Examples/xman/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Images/Test/Makefile" afterPath="$PROJECT_DIR$/src/Images/Test/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Segmentation/Test/Makefile" afterPath="$PROJECT_DIR$/src/Segmentation/Test/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tools/Makefile" afterPath="$PROJECT_DIR$/src/Tools/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tools/Test/Makefile" afterPath="$PROJECT_DIR$/src/Tools/Test/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Devices/Meteor.cc" afterPath="$PROJECT_DIR$/src/Devices/Meteor.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Devices/XVAVI.cc" afterPath="$PROJECT_DIR$/src/Devices/XVAVI.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Devices/XVAVI.h" afterPath="$PROJECT_DIR$/src/Devices/XVAVI.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Devices/XVBt8x8.cc" afterPath="$PROJECT_DIR$/src/Devices/XVBt8x8.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Devices/XVBt8x8.h" afterPath="$PROJECT_DIR$/src/Devices/XVBt8x8.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Images/XVImageBase.icc" afterPath="$PROJECT_DIR$/src/Images/XVImageBase.icc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Images/XVImageFilters.icc" afterPath="$PROJECT_DIR$/src/Images/XVImageFilters.icc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Devices/XVImageSeq.cc" afterPath="$PROJECT_DIR$/src/Devices/XVImageSeq.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tracking/Edges/XVPattern.cc" afterPath="$PROJECT_DIR$/src/Tracking/Edges/XVPattern.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Devices/XVPwc.cc" afterPath="$PROJECT_DIR$/src/Devices/XVPwc.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Devices/XVPwc.h" afterPath="$PROJECT_DIR$/src/Devices/XVPwc.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tracking/SSD/XVSSD.cc" afterPath="$PROJECT_DIR$/src/Tracking/SSD/XVSSD.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tools/XVStereoRectify.cc" afterPath="$PROJECT_DIR$/src/Tools/XVStereoRectify.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tools/XVStereoRectify.h" afterPath="$PROJECT_DIR$/src/Tools/XVStereoRectify.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Devices/XVV4L2.cc" afterPath="$PROJECT_DIR$/src/Devices/XVV4L2.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Devices/XVV4L2.h" afterPath="$PROJECT_DIR$/src/Devices/XVV4L2.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Consoles/XVWindowX.cc" afterPath="$PROJECT_DIR$/src/Consoles/XVWindowX.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/tracking/colorTracker.cc" afterPath="$PROJECT_DIR$/src/Examples/tracking/colorTracker.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/drivers/mpeg_lib-1.3.1/config.cache" afterPath="$PROJECT_DIR$/src/drivers/mpeg_lib-1.3.1/config.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.status" afterPath="$PROJECT_DIR$/config.status" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/drivers/mpeg_lib-1.3.1/config.status" afterPath="$PROJECT_DIR$/src/drivers/mpeg_lib-1.3.1/config.status" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/tracking/edgeTracker.cc" afterPath="$PROJECT_DIR$/src/Examples/tracking/edgeTracker.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/remote/main.cc" afterPath="$PROJECT_DIR$/src/Examples/remote/main.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/showlive/main.cc" afterPath="$PROJECT_DIR$/src/Examples/showlive/main.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/showpv/main.cc" afterPath="$PROJECT_DIR$/src/Examples/showpv/main.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/tracking/ssdTracker.cc" afterPath="$PROJECT_DIR$/src/Examples/tracking/ssdTracker.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/tracking/ssdTracker_1.cc" afterPath="$PROJECT_DIR$/src/Examples/tracking/ssdTracker_1.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/tracking/ssdTracker_mod.cc" afterPath="$PROJECT_DIR$/src/Examples/tracking/ssdTracker_mod.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Examples/tracking/ssdTracker_orig.cc" afterPath="$PROJECT_DIR$/src/Examples/tracking/ssdTracker_orig.cc" />
+    </list>
+    <ignored path="XVision2.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="XVision2" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="XVAVI.cc" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Devices/XVAVI.cc">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2340">
+                  <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="XVAVI.h" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Devices/XVAVI.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.040511727" vertical-offset="907" max-vertical-offset="1845">
+                  <caret line="63" column="54" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="XVMpeg.cc" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Devices/XVMpeg.cc">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1665">
+                  <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="XVMpeg.h" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Devices/XVMpeg.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.5205047" vertical-offset="0" max-vertical-offset="951">
+                  <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="width" value="1602" />
+    <option name="height" value="1071" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XVision2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XVision2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XVision2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XVision2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XVision2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XVision2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XVision2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Devices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
+  <component name="RunManager">
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/include/libdv" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/src/Examples/showpv" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/include/libdv" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/src/Examples/showpv" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc87f713-861f-4e18-b9fa-2084c8513bdd" name="Default" comment="" />
+      <created>1414009890276</created>
+      <updated>1414009890276</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="0" width="1602" height="1071" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.121875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Devices/XVAVI.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2340">
+          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Devices/XVAVI.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.040511727" vertical-offset="907" max-vertical-offset="1845">
+          <caret line="63" column="54" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Devices/XVMpeg.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1665">
+          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Devices/XVMpeg.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5205047" vertical-offset="0" max-vertical-offset="951">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

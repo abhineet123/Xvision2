@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Tracking/Blobs
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Tracking/Blobs/Makefile.in
+END
+XVBlobs.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Tracking/Blobs/XVBlobs.h
+END
+XVBlobFeature.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Tracking/Blobs/XVBlobFeature.cc
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Tracking/Blobs/Makefile
+END
+XVBlobFeature.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Tracking/Blobs/XVBlobFeature.h
+END

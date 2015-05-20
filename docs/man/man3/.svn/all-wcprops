@@ -1,0 +1,473 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3
+END
+XVStateWindowX.3
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVStateWindowX.3
+END
+XVLookupTableException.3
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVLookupTableException.3
+END
+XVDrawRectX.3
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVDrawRectX.3
+END
+XVDiagonalMatrix.3
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVDiagonalMatrix.3
+END
+XVThresholdTable.3
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVThresholdTable.3
+END
+XVDrawLine.3
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVDrawLine.3
+END
+XVMaskedImage.3
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVMaskedImage.3
+END
+XVMaxEdge.3
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVMaxEdge.3
+END
+XVList.3
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVList.3
+END
+XVDrawStringX.3
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVDrawStringX.3
+END
+XVDrawObjectX.3
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVDrawObjectX.3
+END
+XVImageRGB.3
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVImageRGB.3
+END
+XVInteractive.3
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVInteractive.3
+END
+XVPattern.3
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVPattern.3
+END
+XVHueSeg.3
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVHueSeg.3
+END
+XVScalarRangeSeg.3
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVScalarRangeSeg.3
+END
+XVColorImage.3
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVColorImage.3
+END
+XVRGBDistanceSeg.3
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVRGBDistanceSeg.3
+END
+XVShortEdge.3
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVShortEdge.3
+END
+_rowvec.3
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/_rowvec.3
+END
+XVRGBConversionTable.3
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVRGBConversionTable.3
+END
+XVSSD.3
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVSSD.3
+END
+XVInteractWindowX.3
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVInteractWindowX.3
+END
+XVRowVector.3
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVRowVector.3
+END
+XVTracker.3
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVTracker.3
+END
+XVSSDStepper.3
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVSSDStepper.3
+END
+XVRGBDistanceTable.3
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVRGBDistanceTable.3
+END
+XVImageHSV.3
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVImageHSV.3
+END
+XVHueRangeTable.3
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVHueRangeTable.3
+END
+XVDrawPoint.3
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVDrawPoint.3
+END
+XVImageScalar.3
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVImageScalar.3
+END
+XVGroupTracker.3
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVGroupTracker.3
+END
+XVRemoteWindowX.3
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVRemoteWindowX.3
+END
+XVImageYUV422.3
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVImageYUV422.3
+END
+XVDisplayTracker.3
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVDisplayTracker.3
+END
+XVDrawColor.3
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVDrawColor.3
+END
+XVDrawPointX.3
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVDrawPointX.3
+END
+XVColVector.3
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVColVector.3
+END
+XVImageException.3
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVImageException.3
+END
+XVEdge.3
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVEdge.3
+END
+XVMotionSeg.3
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVMotionSeg.3
+END
+XVVideo.3
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVVideo.3
+END
+XVWindow.3
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVWindow.3
+END
+XVTrackerException.3
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVTrackerException.3
+END
+XVSize.3
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVSize.3
+END
+XVDrawEllipse.3
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVDrawEllipse.3
+END
+XVImageBase.3
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVImageBase.3
+END
+XVDrawWindowX.3
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVDrawWindowX.3
+END
+XVScalarTable.3
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVScalarTable.3
+END
+XVDrawString.3
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVDrawString.3
+END
+XVDrawObject.3
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVDrawObject.3
+END
+XVNode.3
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVNode.3
+END
+XVImageHSI.3
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVImageHSI.3
+END
+XVLine.3
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVLine.3
+END
+XVIterator.3
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVIterator.3
+END
+XVScalarRangeTable.3
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVScalarRangeTable.3
+END
+XVDrawLineX.3
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVDrawLineX.3
+END
+XVWindowX.3
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVWindowX.3
+END
+XVThreadedWindowX.3
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVThreadedWindowX.3
+END
+XVYUVConversionTable.3
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVYUVConversionTable.3
+END
+XVDrawEllipseX.3
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVDrawEllipseX.3
+END
+XVHueSectorTable.3
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVHueSectorTable.3
+END
+XVColorBase.3
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVColorBase.3
+END
+XVDrawRect.3
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVDrawRect.3
+END
+XVAffineMatrix.3
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVAffineMatrix.3
+END
+XVImageGeneric.3
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVImageGeneric.3
+END
+XVDrawable.3
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVDrawable.3
+END
+XVRGBTable.3
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVRGBTable.3
+END
+XVAffineWarp.3
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVAffineWarp.3
+END
+XVOmniWarper.3
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVOmniWarper.3
+END
+XVDrawWindow.3
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVDrawWindow.3
+END
+XVImageYUV.3
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVImageYUV.3
+END
+XVYUVTable.3
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVYUVTable.3
+END
+XVStatePair.3
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVStatePair.3
+END
+XVSegmentation.3
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVSegmentation.3
+END
+XVDisplayGroupTracker.3
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVDisplayGroupTracker.3
+END
+XVException.3
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XVException.3
+END
+XV2Vec.3
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/man/man3/XV2Vec.3
+END

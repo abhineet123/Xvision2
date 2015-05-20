@@ -1,0 +1,9 @@
+-Prosilica support fixed and monochrom support added
+- in XVPwc buffer index fixed... needs to be checked later
+
+--This line, and those below, will be ignored--
+
+M    Devices/XVPv.cc
+M    Devices/XVPwc.cc
+M    Devices/Makefile
+D    Devices/.depend

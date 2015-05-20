@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/xvision2/!svn/ver/111/Trunk/XVision2/src/Segmentation
+END
+XVColorSeg.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Segmentation/XVColorSeg.cc
+END
+XVSegmentation.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Segmentation/XVSegmentation.cc
+END
+XVColorSeg.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/20/Trunk/XVision2/src/Segmentation/XVColorSeg.h
+END
+XVSegmentation.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/20/Trunk/XVision2/src/Segmentation/XVSegmentation.h
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Segmentation/Makefile.in
+END
+XVMotionSeg.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Segmentation/XVMotionSeg.cc
+END
+XVScalarSeg.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Segmentation/XVScalarSeg.cc
+END
+XVMotionSeg.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Segmentation/XVMotionSeg.h
+END
+XVScalarSeg.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Segmentation/XVScalarSeg.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Segmentation/Makefile
+END

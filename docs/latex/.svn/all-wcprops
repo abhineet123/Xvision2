@@ -1,0 +1,911 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex
+END
+class_XVScalarTable.tex
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVScalarTable.tex
+END
+class_XVRGBConversionTable.eps
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVRGBConversionTable.eps
+END
+class_XVSSDStepper.eps
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVSSDStepper.eps
+END
+class_XVRGBDistanceTable.eps
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVRGBDistanceTable.eps
+END
+class_XVDisplayGroupTracker.eps
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDisplayGroupTracker.eps
+END
+class_XVDrawWindow.tex
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawWindow.tex
+END
+class_XVColVector.eps
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVColVector.eps
+END
+class_XVYUVConversionTable.eps
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVYUVConversionTable.eps
+END
+class_XVImageHSV.eps
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVImageHSV.eps
+END
+class_XVDrawRectX.eps
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawRectX.eps
+END
+class_XVWindowX.tex
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVWindowX.tex
+END
+class_XVHueSectorTable.eps
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVHueSectorTable.eps
+END
+class_XVStateWindowX.tex
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVStateWindowX.tex
+END
+class_XVMaxEdge.eps
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVMaxEdge.eps
+END
+class_XVDrawEllipse.eps
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawEllipse.eps
+END
+class_XVDrawStringX.eps
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawStringX.eps
+END
+class_XVDiagonalMatrix.tex
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDiagonalMatrix.tex
+END
+class_XVDrawObjectX.eps
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawObjectX.eps
+END
+class_XVDrawWindowX.eps
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawWindowX.eps
+END
+class_XVDrawPoint.tex
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawPoint.tex
+END
+class_XVImageScalar.tex
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVImageScalar.tex
+END
+class_XVRGBTable.eps
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVRGBTable.eps
+END
+class_XVRemoteWindowX.tex
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVRemoteWindowX.tex
+END
+class_XVImageYUV.eps
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVImageYUV.eps
+END
+class_XVImageYUV422.tex
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVImageYUV422.tex
+END
+class_XVColorImage.tex
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVColorImage.tex
+END
+class_XVScalarRangeSeg.tex
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVScalarRangeSeg.tex
+END
+class_XVDrawString.tex
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawString.tex
+END
+class_XVDrawObject.tex
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawObject.tex
+END
+class_XVNode.tex
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVNode.tex
+END
+class_XVLine.tex
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVLine.tex
+END
+class_XVLookupTableException.eps
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVLookupTableException.eps
+END
+class_XVIterator.tex
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVIterator.tex
+END
+doxygen.sty
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/doxygen.sty
+END
+class_XVException.tex
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVException.tex
+END
+annotated.tex
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/annotated.tex
+END
+class_XVDrawRect.tex
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawRect.tex
+END
+class_XVAffineMatrix.tex
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVAffineMatrix.tex
+END
+class_XVDisplayTracker.tex
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDisplayTracker.tex
+END
+class_XVDrawable.tex
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawable.tex
+END
+class_XVAffineWarp.tex
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVAffineWarp.tex
+END
+class_XVShortEdge.tex
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVShortEdge.tex
+END
+class__rowvec.tex
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class__rowvec.tex
+END
+class_XVDrawEllipseX.eps
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawEllipseX.eps
+END
+class_XVTracker.tex
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVTracker.tex
+END
+class_XVYUVTable.tex
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVYUVTable.tex
+END
+class_XVMaskedImage.eps
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVMaskedImage.eps
+END
+class_XV2Vec.tex
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XV2Vec.tex
+END
+class_XVGroupTracker.eps
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVGroupTracker.eps
+END
+class_XVImageException.tex
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVImageException.tex
+END
+class_XVPattern.eps
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVPattern.eps
+END
+class_XVInteractive.eps
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVInteractive.eps
+END
+class_XVImageBase.eps
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVImageBase.eps
+END
+class_XVDrawLine.tex
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawLine.tex
+END
+class_XVHueRangeTable.tex
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVHueRangeTable.tex
+END
+class_XVImageGeneric.eps
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVImageGeneric.eps
+END
+class_XVWindow.tex
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVWindow.tex
+END
+class_XVColorBase.tex
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVColorBase.tex
+END
+class_XVTrackerException.tex
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVTrackerException.tex
+END
+class_XVImageRGB.tex
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVImageRGB.tex
+END
+class_XVSSD.eps
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVSSD.eps
+END
+class_XVInteractWindowX.eps
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVInteractWindowX.eps
+END
+class_XVHueSeg.tex
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVHueSeg.tex
+END
+class_XVRowVector.eps
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVRowVector.eps
+END
+class_XVDrawLineX.eps
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawLineX.eps
+END
+class_XVSegmentation.eps
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVSegmentation.eps
+END
+class_XVDrawPointX.eps
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawPointX.eps
+END
+class_XVThreadedWindowX.eps
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVThreadedWindowX.eps
+END
+class_XVRGBConversionTable.tex
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVRGBConversionTable.tex
+END
+class_XVThresholdTable.eps
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVThresholdTable.eps
+END
+class_XVEdge.eps
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVEdge.eps
+END
+class_XVSSDStepper.tex
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVSSDStepper.tex
+END
+class_XVRGBDistanceTable.tex
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVRGBDistanceTable.tex
+END
+class_XVDisplayGroupTracker.tex
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDisplayGroupTracker.tex
+END
+class_XVColVector.tex
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVColVector.tex
+END
+class_XVYUVConversionTable.tex
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVYUVConversionTable.tex
+END
+class_XVSize.eps
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVSize.eps
+END
+class_XVDrawRectX.tex
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawRectX.tex
+END
+class_XVImageHSV.tex
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVImageHSV.tex
+END
+class_XVHueSectorTable.tex
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVHueSectorTable.tex
+END
+class_XVMaxEdge.tex
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVMaxEdge.tex
+END
+hierarchy.tex
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/hierarchy.tex
+END
+class_XVDrawEllipse.tex
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawEllipse.tex
+END
+class_XVRGBDistanceSeg.eps
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVRGBDistanceSeg.eps
+END
+class_XVDrawStringX.tex
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawStringX.tex
+END
+class_XVDrawObjectX.tex
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawObjectX.tex
+END
+class_XVDrawWindowX.tex
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawWindowX.tex
+END
+class_XVImageHSI.eps
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVImageHSI.eps
+END
+class_XVScalarRangeTable.eps
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVScalarRangeTable.eps
+END
+class_XVRGBTable.tex
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVRGBTable.tex
+END
+class_XVOmniWarper.tex
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVOmniWarper.tex
+END
+class_XVImageYUV.tex
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVImageYUV.tex
+END
+class_XVMotionSeg.eps
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVMotionSeg.eps
+END
+class_XVVideo.eps
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVVideo.eps
+END
+class_XVLookupTableException.tex
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVLookupTableException.tex
+END
+class_XVScalarTable.eps
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVScalarTable.eps
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/Makefile
+END
+class_XVDrawWindow.eps
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawWindow.eps
+END
+class_XVWindowX.eps
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVWindowX.eps
+END
+class_XVStateWindowX.eps
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVStateWindowX.eps
+END
+class_XVStatePair.tex
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVStatePair.tex
+END
+class_XVDrawPoint.eps
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawPoint.eps
+END
+class_XVImageScalar.eps
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVImageScalar.eps
+END
+class_XVRemoteWindowX.eps
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVRemoteWindowX.eps
+END
+class_XVDrawEllipseX.tex
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawEllipseX.tex
+END
+refman.tex
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/refman.tex
+END
+class_XVImageYUV422.eps
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVImageYUV422.eps
+END
+class_XVMaskedImage.tex
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVMaskedImage.tex
+END
+class_XVGroupTracker.tex
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVGroupTracker.tex
+END
+class_XVColorImage.eps
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVColorImage.eps
+END
+class_XVScalarRangeSeg.eps
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVScalarRangeSeg.eps
+END
+class_XVDrawString.eps
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawString.eps
+END
+class_XVDrawObject.eps
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawObject.eps
+END
+class_XVNode.eps
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVNode.eps
+END
+class_XVImageBase.tex
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVImageBase.tex
+END
+class_XVInteractive.tex
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVInteractive.tex
+END
+class_XVPattern.tex
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVPattern.tex
+END
+class_XVImageGeneric.tex
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVImageGeneric.tex
+END
+class_XVIterator.eps
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVIterator.eps
+END
+class_XVException.eps
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVException.eps
+END
+class_XVInteractWindowX.tex
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVInteractWindowX.tex
+END
+class_XVSSD.tex
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVSSD.tex
+END
+class_XVRowVector.tex
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVRowVector.tex
+END
+class_XVDrawLineX.tex
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawLineX.tex
+END
+class_XVSegmentation.tex
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVSegmentation.tex
+END
+class_XVDrawPointX.tex
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawPointX.tex
+END
+class_XVThreadedWindowX.tex
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVThreadedWindowX.tex
+END
+class_XVDrawRect.eps
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawRect.eps
+END
+class_XVEdge.tex
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVEdge.tex
+END
+class_XVThresholdTable.tex
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVThresholdTable.tex
+END
+class_XVDisplayTracker.eps
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDisplayTracker.eps
+END
+class_XVDrawable.eps
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawable.eps
+END
+class_XVSize.tex
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVSize.tex
+END
+class_XVShortEdge.eps
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVShortEdge.eps
+END
+class_XVList.tex
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVList.tex
+END
+class_XVTracker.eps
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVTracker.eps
+END
+class_XVYUVTable.eps
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVYUVTable.eps
+END
+class_XVRGBDistanceSeg.tex
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVRGBDistanceSeg.tex
+END
+class_XVImageHSI.tex
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVImageHSI.tex
+END
+class_XVImageException.eps
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVImageException.eps
+END
+class_XVScalarRangeTable.tex
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVScalarRangeTable.tex
+END
+class_XVDrawLine.eps
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawLine.eps
+END
+class_XVDrawColor.tex
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVDrawColor.tex
+END
+class_XVHueRangeTable.eps
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVHueRangeTable.eps
+END
+class_XVWindow.eps
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVWindow.eps
+END
+class_XVColorBase.eps
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVColorBase.eps
+END
+class_XVTrackerException.eps
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVTrackerException.eps
+END
+class_XVMotionSeg.tex
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVMotionSeg.tex
+END
+class_XVImageRGB.eps
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVImageRGB.eps
+END
+class_XVVideo.tex
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVVideo.tex
+END
+class_XVHueSeg.eps
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/latex/class_XVHueSeg.eps
+END

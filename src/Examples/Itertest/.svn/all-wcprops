@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Examples/Itertest
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/Itertest/Makefile.in
+END
+itest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/Itertest/itest.cc
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Examples/Itertest/Makefile
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/xvision2/!svn/ver/111/Trunk/XVision2/src/Tracking
+END
+XVFeature.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/166/Trunk/XVision2/src/Tracking/XVFeature.h
+END
+XVTracker.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Tracking/XVTracker.h
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Tracking/Makefile.in
+END
+XVGroupTracker.icc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Tracking/XVGroupTracker.icc
+END
+XVTracker.icc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Tracking/XVTracker.icc
+END
+XVGroupTracker.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Tracking/XVGroupTracker.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/xvision2/!svn/ver/111/Trunk/XVision2/src/Tracking/Makefile
+END

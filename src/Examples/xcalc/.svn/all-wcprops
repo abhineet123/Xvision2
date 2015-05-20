@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Examples/xcalc
+END
+HCIWindow.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/xcalc/HCIWindow.cc
+END
+HCIWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/xcalc/HCIWindow.h
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/xcalc/Makefile.in
+END
+HCISelector.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/xcalc/HCISelector.cc
+END
+main.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/xcalc/main.cc
+END
+HCISelector.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/xcalc/HCISelector.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Examples/xcalc/Makefile
+END
+prototypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/xcalc/prototypes.h
+END

@@ -1,0 +1,1859 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html
+END
+class_XVColorImage-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVColorImage-members.html
+END
+class_XVScalarRangeSeg-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVScalarRangeSeg-members.html
+END
+XVColorSeg.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVColorSeg.h-source.html
+END
+class_XVImageBase.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageBase.html
+END
+class_XVInteractive.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVInteractive.html
+END
+class_XVDrawable.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawable.html
+END
+class_XVIterator-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVIterator-members.html
+END
+XVImageRGB.icc-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVImageRGB.icc-source.html
+END
+XVBlobFeature.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVBlobFeature.h-source.html
+END
+class_XVScalarRangeTable.gif
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVScalarRangeTable.gif
+END
+class_XVThresholdTable-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVThresholdTable-members.html
+END
+class_XVEdge-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVEdge-members.html
+END
+XVException.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVException.h-source.html
+END
+class_XVSegmentation.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVSegmentation.html
+END
+class_XVColVector.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVColVector.html
+END
+class_XVImageException.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageException.html
+END
+class_XVMotionSeg.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVMotionSeg.html
+END
+class_XVMotionSeg.gif
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVMotionSeg.gif
+END
+class_XVInteractive-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVInteractive-members.html
+END
+class_XVImageBase-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageBase-members.html
+END
+class_XVHueSeg-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVHueSeg-members.html
+END
+class_XVDrawable-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawable-members.html
+END
+XVList.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVList.h-source.html
+END
+annotated.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/annotated.html
+END
+class_XVRemoteWindowX.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVRemoteWindowX.html
+END
+class_XVRGBDistanceSeg-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVRGBDistanceSeg-members.html
+END
+class_XVScalarTable.gif
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVScalarTable.gif
+END
+class_XVRGBConversionTable-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVRGBConversionTable-members.html
+END
+XVColorImage.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVColorImage.h-source.html
+END
+class_XVAffineWarp.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVAffineWarp.html
+END
+class_XVDrawColor-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawColor-members.html
+END
+class_XVSegmentation-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVSegmentation-members.html
+END
+XVV4L2.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVV4L2.h-source.html
+END
+class_XVDrawWindow.gif
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawWindow.gif
+END
+XVSSD.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVSSD.h-source.html
+END
+class_XVImageException-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageException-members.html
+END
+class_XVStateWindowX.gif
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVStateWindowX.gif
+END
+class_XVRemoteWindowX-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVRemoteWindowX-members.html
+END
+Videre.icc-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/Videre.icc-source.html
+END
+XVGroupTracker.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVGroupTracker.h-source.html
+END
+XVImageScalar.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVImageScalar.h-source.html
+END
+class_XVHueSectorTable.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVHueSectorTable.html
+END
+class_XVImageScalar.gif
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageScalar.gif
+END
+class_XVTrackerException.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVTrackerException.html
+END
+class_XVDrawRect.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawRect.html
+END
+class_XVImageGeneric.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageGeneric.html
+END
+XVImageFilters.icc-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVImageFilters.icc-source.html
+END
+class_XVColorImage.gif
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVColorImage.gif
+END
+class_XVScalarRangeSeg.gif
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVScalarRangeSeg.gif
+END
+class_XVDrawObject.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawObject.html
+END
+class_XVDrawObject.gif
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawObject.gif
+END
+class_XVDrawWindow.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawWindow.html
+END
+class_XVLookupTableException-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVLookupTableException-members.html
+END
+class_XVYUVTable.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVYUVTable.html
+END
+class_XVDrawPointX.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawPointX.html
+END
+class_XVHueSectorTable-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVHueSectorTable-members.html
+END
+class_XVDrawRect-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawRect-members.html
+END
+XVMotionSeg.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVMotionSeg.h-source.html
+END
+XVVideo.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVVideo.h-source.html
+END
+class_XVImageGeneric-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageGeneric-members.html
+END
+class_XVDrawString-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawString-members.html
+END
+XVImageBase.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVImageBase.h-source.html
+END
+class_XVDrawWindow-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawWindow-members.html
+END
+class_XVImageHSI-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageHSI-members.html
+END
+class_XVDrawable.gif
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawable.gif
+END
+class_XVYUVTable-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVYUVTable-members.html
+END
+XVImageHSI.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVImageHSI.h-source.html
+END
+class_XVDrawPointX-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawPointX-members.html
+END
+XVImageSeq.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVImageSeq.h-source.html
+END
+class_XVTracker.gif
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVTracker.gif
+END
+XVWindowX.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVWindowX.h-source.html
+END
+class_XVVideo-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVVideo-members.html
+END
+files.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/files.html
+END
+class_XVGroupTracker-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVGroupTracker-members.html
+END
+class_XVMaxEdge-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVMaxEdge-members.html
+END
+class_XVImageException.gif
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageException.gif
+END
+class_XVDrawLine.gif
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawLine.gif
+END
+class_XVHueRangeTable.gif
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVHueRangeTable.gif
+END
+mrt_cs.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/mrt_cs.h-source.html
+END
+class_XVRGBTable-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVRGBTable-members.html
+END
+class_XVColorBase.gif
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVColorBase.gif
+END
+class_XVDrawEllipse.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawEllipse.html
+END
+class_XVShortEdge-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVShortEdge-members.html
+END
+XVRectRaster.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVRectRaster.h-source.html
+END
+class_XVImageYUV422.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageYUV422.html
+END
+class_XVOmniWarper.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVOmniWarper.html
+END
+XVLookupTable.icc-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVLookupTable.icc-source.html
+END
+class_XVThreadedWindowX-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVThreadedWindowX-members.html
+END
+class_XVSSD.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVSSD.html
+END
+class_XVRGBConversionTable.gif
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVRGBConversionTable.gif
+END
+class_XVInteractWindowX.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVInteractWindowX.html
+END
+XVFeature.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVFeature.h-source.html
+END
+XVGeometry.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVGeometry.h-source.html
+END
+class_XVSSDStepper.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVSSDStepper.html
+END
+XVSegmentation.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVSegmentation.h-source.html
+END
+class_XVException.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVException.html
+END
+class_XVWindowX.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVWindowX.html
+END
+XVTracker.icc-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVTracker.icc-source.html
+END
+class_XVColVector.gif
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVColVector.gif
+END
+class_XVDrawEllipse-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawEllipse-members.html
+END
+class_XVDrawLine.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawLine.html
+END
+class_XVOmniWarper-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVOmniWarper-members.html
+END
+class_XVMaxEdge.gif
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVMaxEdge.gif
+END
+XVPattern.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVPattern.h-source.html
+END
+class_XVDrawObjectX.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawObjectX.html
+END
+class_XVImageRGB.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageRGB.html
+END
+class_XVDrawStringX.gif
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawStringX.gif
+END
+class_XVSSD-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVSSD-members.html
+END
+class_XVInteractWindowX-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVInteractWindowX-members.html
+END
+XVDig1394.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVDig1394.h-source.html
+END
+class__rowvec.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class__rowvec.html
+END
+class_XVWindowX-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVWindowX-members.html
+END
+XVTracker.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVTracker.h-source.html
+END
+class_XVRGBDistanceTable.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVRGBDistanceTable.html
+END
+class_XVDrawLine-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawLine-members.html
+END
+class_XVDrawStringX-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawStringX-members.html
+END
+class_XVImageRGB-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageRGB-members.html
+END
+class_XVHueRangeTable.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVHueRangeTable.html
+END
+class_XVImageScalar.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageScalar.html
+END
+null.gif
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/null.gif
+END
+class_XVDrawWindowX.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawWindowX.html
+END
+XVImageYUV422.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVImageYUV422.h-source.html
+END
+class_XVRowVector-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVRowVector-members.html
+END
+XVImageBase.icc-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVImageBase.icc-source.html
+END
+class_XVRGBDistanceTable-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVRGBDistanceTable-members.html
+END
+class_XVStateWindowX-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVStateWindowX-members.html
+END
+class_XVScalarRangeTable.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVScalarRangeTable.html
+END
+class_XVDisplayGroupTracker.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDisplayGroupTracker.html
+END
+class_XV2Vec.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XV2Vec.html
+END
+XVTools.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVTools.h-source.html
+END
+class_XVSize-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVSize-members.html
+END
+XVDig.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVDig.h-source.html
+END
+XVMatrix.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVMatrix.h-source.html
+END
+DVFrame.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/DVFrame.h-source.html
+END
+class_XVDrawWindowX-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawWindowX-members.html
+END
+class_XVMaskedImage.gif
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVMaskedImage.gif
+END
+class_XVGroupTracker.gif
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVGroupTracker.gif
+END
+class_XVList.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVList.html
+END
+class_XVImageBase.gif
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageBase.gif
+END
+class_XVInteractive.gif
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVInteractive.gif
+END
+class_XVImageGeneric.gif
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageGeneric.gif
+END
+class_XVStatePair-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVStatePair-members.html
+END
+class_XV2Vec-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XV2Vec-members.html
+END
+classes.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/classes.html
+END
+class_XVRowVector.gif
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVRowVector.gif
+END
+class_XVSegmentation.gif
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVSegmentation.gif
+END
+class_XVDrawPointX.gif
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawPointX.gif
+END
+class_XVList-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVList-members.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/index.html
+END
+class_XVThresholdTable.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVThresholdTable.html
+END
+class_XVEdge.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVEdge.html
+END
+class_XVThresholdTable.gif
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVThresholdTable.gif
+END
+class_XVEdge.gif
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVEdge.gif
+END
+XVMatrix.icc-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVMatrix.icc-source.html
+END
+class_XVSize.gif
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVSize.gif
+END
+class_XVPattern.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVPattern.html
+END
+class_XVImageYUV-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageYUV-members.html
+END
+class_XVHueSeg.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVHueSeg.html
+END
+class_XVDisplayTracker.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDisplayTracker.html
+END
+XVOmniWarper.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVOmniWarper.h-source.html
+END
+XVPattern.icc-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVPattern.icc-source.html
+END
+class_XVRGBDistanceSeg.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVRGBDistanceSeg.html
+END
+XVImageYUV.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVImageYUV.h-source.html
+END
+class_XVRGBDistanceSeg.gif
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVRGBDistanceSeg.gif
+END
+class_XVImageHSI.gif
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageHSI.gif
+END
+class_XVRGBConversionTable.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVRGBConversionTable.html
+END
+svs.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/svs.h-source.html
+END
+class_XVDrawColor.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawColor.html
+END
+class_XVDrawLineX.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawLineX.html
+END
+Videre.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/Videre.h-source.html
+END
+XVBlobs.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVBlobs.h-source.html
+END
+class_XVDiagonalMatrix.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDiagonalMatrix.html
+END
+class_XVPattern-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVPattern-members.html
+END
+class_XVVideo.gif
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVVideo.gif
+END
+class_XVDisplayTracker-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDisplayTracker-members.html
+END
+class_XVColorBase.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVColorBase.html
+END
+XVInteractive.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVInteractive.h-source.html
+END
+XVLookupTable.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVLookupTable.h-source.html
+END
+Mrt.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/Mrt.h-source.html
+END
+XVMacros.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVMacros.h-source.html
+END
+class_XVDrawLineX-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawLineX-members.html
+END
+XVMpeg.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVMpeg.h-source.html
+END
+class_XVColVector-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVColVector-members.html
+END
+XVAffineWarp.icc-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVAffineWarp.icc-source.html
+END
+class_XVDiagonalMatrix-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDiagonalMatrix-members.html
+END
+class_XVMotionSeg-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVMotionSeg-members.html
+END
+class_XVWindowX.gif
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVWindowX.gif
+END
+class_XVLookupTableException.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVLookupTableException.html
+END
+class_XVYUVConversionTable.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVYUVConversionTable.html
+END
+class_XVColorBase-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVColorBase-members.html
+END
+XVImageHSV.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVImageHSV.h-source.html
+END
+class_XVMaskedImage.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVMaskedImage.html
+END
+class_XVDrawPoint.gif
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawPoint.gif
+END
+class_XVAffineWarp-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVAffineWarp-members.html
+END
+class_XVRemoteWindowX.gif
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVRemoteWindowX.gif
+END
+class_XVScalarTable.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVScalarTable.html
+END
+class_XVImageYUV422.gif
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageYUV422.gif
+END
+class_XVDrawString.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawString.html
+END
+class_XVDrawString.gif
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawString.gif
+END
+class_XVImageHSI.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageHSI.html
+END
+class_XVNode.gif
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVNode.gif
+END
+bt819.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/bt819.h-source.html
+END
+class_XVYUVConversionTable-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVYUVConversionTable-members.html
+END
+class_XVIterator.gif
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVIterator.gif
+END
+class_XVTracker.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVTracker.html
+END
+class_XVException.gif
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVException.gif
+END
+class_XVMaskedImage-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVMaskedImage-members.html
+END
+class_XVTrackerException-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVTrackerException-members.html
+END
+class_XVScalarTable-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVScalarTable-members.html
+END
+class_XVVideo.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVVideo.html
+END
+XVWindow.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVWindow.h-source.html
+END
+class_XVGroupTracker.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVGroupTracker.html
+END
+class_XVMaxEdge.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVMaxEdge.html
+END
+class_XVDrawRect.gif
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawRect.gif
+END
+class_XVDrawObject-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawObject-members.html
+END
+XVGroupTracker.icc-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVGroupTracker.icc-source.html
+END
+XVImageScalar.icc-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVImageScalar.icc-source.html
+END
+XVImageIO.icc-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVImageIO.icc-source.html
+END
+ieee1394-ioctl.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/ieee1394-ioctl.h-source.html
+END
+StereoVidere.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/StereoVidere.h-source.html
+END
+class_XVDisplayTracker.gif
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDisplayTracker.gif
+END
+class_XVRGBTable.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVRGBTable.html
+END
+class_XVTracker-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVTracker-members.html
+END
+class_XVShortEdge.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVShortEdge.html
+END
+class_XVNode.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVNode.html
+END
+class_XVShortEdge.gif
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVShortEdge.gif
+END
+class_XVYUVTable.gif
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVYUVTable.gif
+END
+class_XVThreadedWindowX.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVThreadedWindowX.html
+END
+class_XVDrawRectX.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawRectX.html
+END
+class_XVImageHSV.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageHSV.html
+END
+class_XVWindow.gif
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVWindow.gif
+END
+hierarchy.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/hierarchy.html
+END
+class_XVTrackerException.gif
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVTrackerException.gif
+END
+class_XVAffineMatrix.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVAffineMatrix.html
+END
+class_XVNode-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVNode-members.html
+END
+class_XVImageRGB.gif
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageRGB.gif
+END
+XVDrawable.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVDrawable.h-source.html
+END
+XVAffineWarp.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVAffineWarp.h-source.html
+END
+class_XVHueSeg.gif
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVHueSeg.gif
+END
+XVDig1394_v2.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVDig1394_v2.h-source.html
+END
+class_XVDrawRectX-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawRectX-members.html
+END
+class_XVImageHSV-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageHSV-members.html
+END
+class_XVSSDStepper.gif
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVSSDStepper.gif
+END
+class_XVRGBDistanceTable.gif
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVRGBDistanceTable.gif
+END
+class_XVDisplayGroupTracker.gif
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDisplayGroupTracker.gif
+END
+svs22b.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/svs22b.h-source.html
+END
+class_XVYUVConversionTable.gif
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVYUVConversionTable.gif
+END
+class_XVDrawRectX.gif
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawRectX.gif
+END
+class_XVImageHSV.gif
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageHSV.gif
+END
+functions.html
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/functions.html
+END
+class_XVAffineMatrix-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVAffineMatrix-members.html
+END
+XVMaskedImage.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVMaskedImage.h-source.html
+END
+class_XVImageYUV422-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageYUV422-members.html
+END
+class_XVDrawPoint.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawPoint.html
+END
+class_XVHueSectorTable.gif
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVHueSectorTable.gif
+END
+DV1394.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/DV1394.h-source.html
+END
+doxygen.gif
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/doxygen.gif
+END
+class_XVDrawStringX.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawStringX.html
+END
+XVImageRGB.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVImageRGB.h-source.html
+END
+class_XVDrawEllipse.gif
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawEllipse.gif
+END
+class_XVDrawObjectX.gif
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawObjectX.gif
+END
+class_XVDrawWindowX.gif
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawWindowX.gif
+END
+XVPixel.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVPixel.h-source.html
+END
+VideoManager.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/VideoManager.h-source.html
+END
+class_XVRGBTable.gif
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVRGBTable.gif
+END
+class_XVSSDStepper-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVSSDStepper-members.html
+END
+class_XVException-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVException-members.html
+END
+class_XVLine.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVLine.html
+END
+class_XVImageYUV.gif
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageYUV.gif
+END
+class_XVRowVector.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVRowVector.html
+END
+XVImageYUV.icc-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVImageYUV.icc-source.html
+END
+class_XVDrawPoint-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawPoint-members.html
+END
+class_XVStateWindowX.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVStateWindowX.html
+END
+class_XVLookupTableException.gif
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVLookupTableException.gif
+END
+class_XVDrawEllipseX.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawEllipseX.html
+END
+class_XVDrawObjectX-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawObjectX-members.html
+END
+videodev2.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/videodev2.h-source.html
+END
+XVImageIO.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVImageIO.h-source.html
+END
+XVRemoteWindowX.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVRemoteWindowX.h-source.html
+END
+class_XVSize.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVSize.html
+END
+XVBt8x8.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVBt8x8.h-source.html
+END
+class__rowvec-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class__rowvec-members.html
+END
+class_XVLine-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVLine-members.html
+END
+svsclass.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/svsclass.h-source.html
+END
+XVDig1394_v1.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVDig1394_v1.h-source.html
+END
+XVImageIterator.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVImageIterator.h-source.html
+END
+class_XVDrawEllipseX-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawEllipseX-members.html
+END
+class_XVStatePair.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVStatePair.html
+END
+class_XVHueRangeTable-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVHueRangeTable-members.html
+END
+class_XVImageScalar-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageScalar-members.html
+END
+XVScalarSeg.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVScalarSeg.h-source.html
+END
+class_XVDrawEllipseX.gif
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawEllipseX.gif
+END
+class_XVWindow.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVWindow.html
+END
+video1394.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/video1394.h-source.html
+END
+Meteor.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/Meteor.h-source.html
+END
+class_XVPattern.gif
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVPattern.gif
+END
+XVEdgeFeature.h-source.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/XVEdgeFeature.h-source.html
+END
+class_XVScalarRangeSeg.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVScalarRangeSeg.html
+END
+class_XVColorImage.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVColorImage.html
+END
+class_XVScalarRangeTable-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVScalarRangeTable-members.html
+END
+class_XVImageYUV.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVImageYUV.html
+END
+class_XVDisplayGroupTracker-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDisplayGroupTracker-members.html
+END
+class_XVIterator.html
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVIterator.html
+END
+class_XVSSD.gif
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVSSD.gif
+END
+class_XVInteractWindowX.gif
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVInteractWindowX.gif
+END
+class_XVDrawLineX.gif
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVDrawLineX.gif
+END
+doxygen.css
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/doxygen.css
+END
+class_XVWindow-members.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVWindow-members.html
+END
+class_XVThreadedWindowX.gif
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/7/Trunk/XVision2/docs/html/class_XVThreadedWindowX.gif
+END

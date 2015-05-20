@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Examples/show_v4l
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/30/Trunk/XVision2/src/Examples/show_v4l/Makefile.in
+END
+main.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/20/Trunk/XVision2/src/Examples/show_v4l/main.cc
+END
+.depend
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/97/Trunk/XVision2/src/Examples/show_v4l/.depend
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Examples/show_v4l/Makefile
+END

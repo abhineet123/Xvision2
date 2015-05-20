@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Examples/dispfile
+END
+head.ini
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/dispfile/head.ini
+END
+main.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/60/Trunk/XVision2/src/Examples/dispfile/main.cc
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/dispfile/Makefile
+END

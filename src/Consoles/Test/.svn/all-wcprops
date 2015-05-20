@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Consoles/Test
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Consoles/Test/Makefile.in
+END
+interTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Consoles/Test/interTest.cc
+END
+ppmtest.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Consoles/Test/ppmtest.ppm
+END
+test_consoles.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Consoles/Test/test_consoles.cc
+END
+timings2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Consoles/Test/timings2.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Consoles/Test/Makefile
+END

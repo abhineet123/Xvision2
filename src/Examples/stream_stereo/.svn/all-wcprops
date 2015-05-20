@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Examples/stream_stereo
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/48/Trunk/XVision2/src/Examples/stream_stereo/Makefile.in
+END
+main.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/46/Trunk/XVision2/src/Examples/stream_stereo/main.cc
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Examples/stream_stereo/Makefile
+END

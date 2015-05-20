@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/xvision2/!svn/ver/104/Trunk/XVision2/src/Examples/convert
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/convert/Makefile.in
+END
+convert.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/convert/convert.cc
+END
+convert1.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/convert/convert1.cc
+END

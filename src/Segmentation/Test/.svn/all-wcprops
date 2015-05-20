@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Segmentation/Test
+END
+rangeTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Segmentation/Test/rangeTest.cc
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Segmentation/Test/Makefile.in
+END
+lightdark.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Segmentation/Test/lightdark.ppm
+END
+hueTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Segmentation/Test/hueTest.cc
+END
+rainbowGradient.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Segmentation/Test/rainbowGradient.ppm
+END
+test.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Segmentation/Test/test.ppm
+END
+colorBlobs.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Segmentation/Test/colorBlobs.ppm
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Segmentation/Test/Makefile
+END

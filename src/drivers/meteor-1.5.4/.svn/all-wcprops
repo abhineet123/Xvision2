@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4
+END
+meteor.doc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/meteor.doc
+END
+README-1.5.4
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/README-1.5.4
+END
+saa71x6.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/saa71x6.h
+END
+Configure
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/Configure
+END
+History
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/History
+END
+meteor.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/meteor.h
+END
+Hardware-FAQ
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/Hardware-FAQ
+END
+k_compat.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/k_compat.h
+END
+meteor.lsm
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/meteor.lsm
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/COPYING
+END
+meteorman.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/meteorman.html
+END
+ioctl_meteor.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/ioctl_meteor.h
+END
+meteor.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/meteor.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/Makefile
+END

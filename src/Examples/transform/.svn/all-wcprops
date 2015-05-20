@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Examples/transform
+END
+transform.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/transform/transform.cc
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/transform/Makefile.in
+END
+assigntest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/transform/assigntest.cc
+END
+nowindow.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/transform/nowindow.cc
+END
+prog.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/transform/prog.cc
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Examples/transform/Makefile
+END

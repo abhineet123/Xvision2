@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Examples/pong
+END
+PongWindow.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/pong/PongWindow.cc
+END
+PongWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/pong/PongWindow.h
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/pong/Makefile.in
+END
+main.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/pong/main.cc
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Examples/pong/Makefile
+END

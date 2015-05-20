@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Examples/imgIOTest
+END
+jpgtest.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/imgIOTest/jpgtest.jpg
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/imgIOTest/Makefile.in
+END
+grayjpgtest.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/imgIOTest/grayjpgtest.jpg
+END
+tiftest.tif
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/imgIOTest/tiftest.tif
+END
+pgmtest.pgm
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/imgIOTest/pgmtest.pgm
+END
+graytiftest.tif
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/imgIOTest/graytiftest.tif
+END
+ppmtest.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/imgIOTest/ppmtest.ppm
+END
+testimg.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/imgIOTest/testimg.jpg
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Examples/imgIOTest/Makefile
+END
+imageIOTest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/imgIOTest/imageIOTest.cc
+END

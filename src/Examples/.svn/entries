@@ -1,0 +1,195 @@
+10
+
+dir
+162
+https://svnknoll.informatik.tu-muenchen.de/xvision2/Trunk/XVision2/src/Examples
+https://svnknoll.informatik.tu-muenchen.de/xvision2
+
+
+
+2010-05-04T13:40:51.539309Z
+119
+burschka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+b6ea216b-604f-0410-98bb-8b453d65e082
+
+Makefile.in
+file
+
+
+
+
+2010-03-27T18:57:30.057702Z
+886ecb4984a02f4b4c7f5af75204df8f
+2008-06-27T13:39:28.353068Z
+1
+burschka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+272
+
+BoxFxTest
+dir
+
+showpwc
+dir
+
+control_panel
+dir
+
+showdisp
+dir
+
+tracking
+dir
+
+xman
+dir
+
+imgIOTest
+dir
+
+play_avi
+dir
+
+show_v4l
+dir
+
+warp
+dir
+
+showdv
+dir
+
+transform
+dir
+
+stream_stereo
+dir
+
+Makefile
+file
+
+
+
+
+2010-08-19T16:00:00.144516Z
+deeddb904d339b499c4f9617fc1bd7d5
+2008-06-27T13:39:28.353068Z
+1
+burschka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+261
+
+testing
+dir
+
+gesture
+dir
+
+convert
+dir
+
+redres
+dir
+
+pong2
+dir
+
+filter
+dir
+
+xcalc
+dir
+
+xgest
+dir
+
+remote
+dir
+
+dispfile
+dir
+
+operate
+dir
+
+showlive
+dir
+
+color2
+dir
+
+pong
+dir
+
+Itertest
+dir
+
+showdig
+dir
+
+main2
+dir
+
+stream_stereo_color
+dir
+
+colorUpdating
+dir
+
+interactiveColorSelect
+dir
+

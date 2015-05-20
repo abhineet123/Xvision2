@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/xvision2/!svn/ver/117/Trunk/XVision2/src/Images
+END
+XVImageBase.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/50/Trunk/XVision2/src/Images/XVImageBase.cc
+END
+XVImageRGB.cc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Images/XVImageRGB.cc
+END
+XVImageYUV422.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/50/Trunk/XVision2/src/Images/XVImageYUV422.cc
+END
+XVImageRGB.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Images/XVImageRGB.h
+END
+XVImageBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/xvision2/!svn/ver/20/Trunk/XVision2/src/Images/XVImageBase.h
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/xvision2/!svn/ver/50/Trunk/XVision2/src/Images/Makefile.in
+END
+XVPixel.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/xvision2/!svn/ver/50/Trunk/XVision2/src/Images/XVPixel.cc
+END
+XVImageScalar.icc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Images/XVImageScalar.icc
+END
+XVPixel.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/xvision2/!svn/ver/70/Trunk/XVision2/src/Images/XVPixel.h
+END
+XVColorImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/50/Trunk/XVision2/src/Images/XVColorImage.h
+END
+XVImageIO.icc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/xvision2/!svn/ver/20/Trunk/XVision2/src/Images/XVImageIO.icc
+END
+XVImageYUV.cc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Images/XVImageYUV.cc
+END
+XVImageHSI.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Images/XVImageHSI.h
+END
+XVImageYUV.icc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Images/XVImageYUV.icc
+END
+XVImageHSV.cc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Images/XVImageHSV.cc
+END
+XVImageHSV.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Images/XVImageHSV.h
+END
+XVColorBase.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/52/Trunk/XVision2/src/Images/XVColorBase.cc
+END
+XVImageScalar.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Images/XVImageScalar.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Images/Makefile
+END
+XVImageIO.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Images/XVImageIO.h
+END
+XVImageYUV422.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/50/Trunk/XVision2/src/Images/XVImageYUV422.h
+END
+XVImageFilters.icc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Images/XVImageFilters.icc
+END
+XVImageRGB.icc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Images/XVImageRGB.icc
+END
+XVImageBase.icc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Images/XVImageBase.icc
+END
+XVImageYUV.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Images/XVImageYUV.h
+END
+XVImageIterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Images/XVImageIterator.h
+END
+XVImageYCbCr.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/53/Trunk/XVision2/src/Images/XVImageYCbCr.cc
+END
+XVMaskedImage.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Images/XVMaskedImage.cc
+END
+XVImageYCbCr.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/53/Trunk/XVision2/src/Images/XVImageYCbCr.h
+END
+XVImageScalar.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Images/XVImageScalar.cc
+END
+XVMaskedImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Images/XVMaskedImage.h
+END

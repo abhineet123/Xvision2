@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Examples/stream_stereo_color
+END
+head.ini
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/xvision2/!svn/ver/48/Trunk/XVision2/src/Examples/stream_stereo_color/head.ini
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/xvision2/!svn/ver/48/Trunk/XVision2/src/Examples/stream_stereo_color/Makefile.in
+END
+main.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/xvision2/!svn/ver/104/Trunk/XVision2/src/Examples/stream_stereo_color/main.cc
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Examples/stream_stereo_color/Makefile
+END

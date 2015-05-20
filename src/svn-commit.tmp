@@ -1,0 +1,9 @@
+- Prosilica support corrected 
+- bug in returned image pointer fixed???? in XVPwc :(
+
+--This line, and those below, will be ignored--
+
+M    Devices/XVPv.cc
+M    Devices/XVPwc.cc
+M    Devices/.depend
+M    Devices/Makefile

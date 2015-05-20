@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Examples/pong2
+END
+PongWindow.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/pong2/PongWindow.cc
+END
+PongWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/pong2/PongWindow.h
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/pong2/Makefile.in
+END
+PongSelector.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/pong2/PongSelector.cc
+END
+main.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/pong2/main.cc
+END
+PongSelector.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/pong2/PongSelector.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/107/Trunk/XVision2/src/Examples/pong2/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Examples/pong2/README
+END

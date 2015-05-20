@@ -1,0 +1,293 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/xvision2/!svn/ver/162/Trunk/XVision2/src/Devices
+END
+Meteor.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/Meteor.cc
+END
+DV1394.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/DV1394.h
+END
+Meteor.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/Meteor.h
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/xvision2/!svn/ver/98/Trunk/XVision2/src/Devices/Makefile.in
+END
+VideoManager.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/VideoManager.cc
+END
+StereoVidere.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/67/Trunk/XVision2/src/Devices/StereoVidere.h
+END
+ieee1394-ioctl.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/ieee1394-ioctl.h
+END
+VideoManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/VideoManager.h
+END
+XVPv.cc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/xvision2/!svn/ver/148/Trunk/XVision2/src/Devices/XVPv.cc
+END
+pwc-ioctl.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/xvision2/!svn/ver/80/Trunk/XVision2/src/Devices/pwc-ioctl.h
+END
+XVDig1394.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/XVDig1394.h
+END
+Mrt.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/Mrt.h
+END
+XVPv.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/xvision2/!svn/ver/20/Trunk/XVision2/src/Devices/XVPv.h
+END
+XVV4L2.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/xvision2/!svn/ver/96/Trunk/XVision2/src/Devices/XVV4L2.cc
+END
+XVPwc.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/xvision2/!svn/ver/109/Trunk/XVision2/src/Devices/XVPwc.cc
+END
+XVV4L2.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/xvision2/!svn/ver/96/Trunk/XVision2/src/Devices/XVV4L2.h
+END
+XVMpeg.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/XVMpeg.h
+END
+XVDig1394_v1.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/XVDig1394_v1.cc
+END
+XVPwc.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/xvision2/!svn/ver/109/Trunk/XVision2/src/Devices/XVPwc.h
+END
+XVImageSeq.cc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/XVImageSeq.cc
+END
+XVImageSeq.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/XVImageSeq.h
+END
+Videre.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/xvision2/!svn/ver/69/Trunk/XVision2/src/Devices/Videre.cc
+END
+XVFlea2G.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/xvision2/!svn/ver/153/Trunk/XVision2/src/Devices/XVFlea2G.h
+END
+XVVideo.cc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/xvision2/!svn/ver/51/Trunk/XVision2/src/Devices/XVVideo.cc
+END
+DVFrame.cc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/DVFrame.cc
+END
+Videre.icc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/xvision2/!svn/ver/48/Trunk/XVision2/src/Devices/Videre.icc
+END
+mrt_cs.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/mrt_cs.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/xvision2/!svn/ver/127/Trunk/XVision2/src/Devices/Makefile
+END
+DV1394.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/DV1394.cc
+END
+XVBt8x8.cc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/XVBt8x8.cc
+END
+XVAVI.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/xvision2/!svn/ver/164/Trunk/XVision2/src/Devices/XVAVI.cc
+END
+XVBt8x8.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/XVBt8x8.h
+END
+XVAVI.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/xvision2/!svn/ver/164/Trunk/XVision2/src/Devices/XVAVI.h
+END
+StereoVidere.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/115/Trunk/XVision2/src/Devices/StereoVidere.cc
+END
+XVDig1394.cc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/XVDig1394.cc
+END
+MRT.cc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/MRT.cc
+END
+XVMpeg.cc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/XVMpeg.cc
+END
+XVDig1394_v2.cc
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/xvision2/!svn/ver/154/Trunk/XVision2/src/Devices/XVDig1394_v2.cc
+END
+bt819.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/bt819.h
+END
+XVDig1394_v1.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/XVDig1394_v1.h
+END
+XVDig1394_v2.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/xvision2/!svn/ver/154/Trunk/XVision2/src/Devices/XVDig1394_v2.h
+END
+XVFlea2G.cc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/xvision2/!svn/ver/154/Trunk/XVision2/src/Devices/XVFlea2G.cc
+END
+Videre.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/xvision2/!svn/ver/64/Trunk/XVision2/src/Devices/Videre.h
+END
+XVDig.cc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/XVDig.cc
+END
+XVDig.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/XVDig.h
+END
+DVFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/DVFrame.h
+END
+XVVideo.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/xvision2/!svn/ver/51/Trunk/XVision2/src/Devices/XVVideo.h
+END
+video1394.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/xvision2/!svn/ver/10/Trunk/XVision2/src/Devices/video1394.h
+END

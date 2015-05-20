@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/examples/vu4-color
+END
+newcolors.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/examples/vu4-color/newcolors.h
+END
+translate.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/examples/vu4-color/translate.h
+END
+colorDisplay.c
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/examples/vu4-color/colorDisplay.c
+END
+colorDisplay.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/examples/vu4-color/colorDisplay.h
+END
+vu4-color.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/examples/vu4-color/vu4-color.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/examples/vu4-color/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/examples/vu4-color/README
+END
+translate.c
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/xvision2/!svn/ver/10/Trunk/XVision2/src/drivers/meteor-1.5.4/examples/vu4-color/translate.c
+END
