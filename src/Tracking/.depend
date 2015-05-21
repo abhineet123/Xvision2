@@ -374,9 +374,10 @@ XVBlobFeature.o: Blobs/XVBlobFeature.cc /usr/include/stdc-predef.h \
  ../..//include/XVTracker.h ../..//include/XVTracker.icc \
  ../..//include/XVGroupTracker.h ../..//include/XVGroupTracker.icc \
  ../..//include/XVImageYUV422.h
-XVSSD.o: SSD/XVSSD.cc /usr/include/stdc-predef.h SSD/XVSSD.h \
- ../..//include/XVTools.h /usr/include/x86_64-linux-gnu/sys/types.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+XVSSD.o: SSD/XVSSD.cc /usr/include/stdc-predef.h SSD/XVSSDHelper.h \
+ SSD/XVSSD.h ../..//include/XVTools.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
