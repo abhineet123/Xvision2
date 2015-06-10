@@ -48,12 +48,12 @@ typedef enum { XVImage_uchar  =  0,
                XVImage_HUE      = 51,
                XVImage_HSV24    = 52,
 	       XVImage_YCbCr	= 53
-	       } 
+	       }
 XVImage_Type;
 
 inline bool XVImage_Signed_Type(XVImage_Type x) { return ((x/10) == 1); }
 inline bool XVImage_RGB_Type(XVImage_Type x) { return (((int)(x/20)) == 1); }
-inline bool XVImage_YUV_Type(XVImage_Type x) { return ((int)(x/30)) == 1; } 
+inline bool XVImage_YUV_Type(XVImage_Type x) { return ((int)(x/30)) == 1; }
 
 // ambiguous with big and little endian :(
 
@@ -178,7 +178,7 @@ typedef struct
 // YUV definitions
 
 typedef struct {
-  
+
   unsigned short y:8;
   unsigned short u:4;
   unsigned short v:4;
@@ -215,8 +215,8 @@ typedef struct
   unsigned char y0;
   unsigned char v;
   unsigned char y1;
- 
-   
+
+
   void setY(unsigned char a) {y0 = a;};
   void setY2(unsigned char a) {y1 = a;};
   void setU(unsigned char a) {u = a;};
@@ -277,7 +277,7 @@ typedef struct {
   u_char  h;
   u_char  s;
   u_char  v;
-  
+
   u_char H() const { return h; };
   u_char S() const { return s; };
   u_char V() const { return v; };
@@ -314,15 +314,15 @@ typedef struct {
 
    RGBtoYUV=[ 0.299   0.587     0.114
               -0.1471 -0.288804 0.4359
-              0.6148  -0.5148   -0.1]    
+              0.6148  -0.5148   -0.1]
 
    U and V should be offset by 128
-*/          
-                             
-  
+*/
+
+
 #define YUV2R(y, u, v) (y + (v-128)*9339/8192 )
 #define YUV2G(y, u, v) (y - (u-128)*3228/8192 - (v-128)*4760/8192  )
-#define YUV2B(y, u, v) (y + (u-128)*16646/8192 ) 
+#define YUV2B(y, u, v) (y + (u-128)*16646/8192 )
 
 #define RGB2Y(r, g, b) ( r*2449/8192 + g*4809/8192 + b*934/8192 )
 #define RGB2U(r, g, b) ( 128-r*1205/8192 - g*2366/8192 + b*3571/8192 )
@@ -331,7 +331,7 @@ typedef struct {
 
 template <class T>
 float RGBtoHue(T pixel, int brightPixel = DEFAULT_BRIGHT_PIXEL, int darkPixel = DEFAULT_DARK_PIXEL){
-  
+
   // normalizing r, g, b
   //T max = {255, 255, 255};
 
@@ -354,18 +354,18 @@ float RGBtoHue(T pixel, int brightPixel = DEFAULT_BRIGHT_PIXEL, int darkPixel = 
     mn = normalR;
     mx = normalG;
   }
-  
+
   if (normalB < mn) {
     mn = normalB;
   }
-  
+
   if (normalB > mx) {
     whichmax = 3;
     mx = normalB;
   }
-  
+
   delta = (float)(mx - mn);
-  
+
   // compute saturation
   if((mx + mn) > 1.0){
     sat = delta / (mx + mn);
@@ -378,7 +378,7 @@ float RGBtoHue(T pixel, int brightPixel = DEFAULT_BRIGHT_PIXEL, int darkPixel = 
   if((mx * 255) < darkPixel)          { NULL_RETVAL |= NULL_DARK; }
   if((mn * 255) > brightPixel)        { NULL_RETVAL |= NULL_BRIGHT; }
   if(NULL_RETVAL) return (float)NULL_RETVAL;
-  
+
   switch (whichmax) {
   case 1:
     hue = (normalG - normalB) / delta;
@@ -423,25 +423,25 @@ XV_HSV24 RGBtoHSV(T pixel, int brightPixel = DEFAULT_BRIGHT_PIXEL,
     mn = normalR;
     mx = normalG;
   }
-  
+
   if (normalB < mn) {
     mn = normalB;
   }
-  
+
   if (normalB > mx) {
     whichmax = 3;
     mx = normalB;
   }
- 
+
   val = mx;
   float delta = mx - mn;
   sat = (mx != 0) ? ((float)delta) / mx : 0.0;
-  
+
   if((delta < 1e-9) || (sat < 0.005) || (((mx * 255) < darkPixel) || ((mn * 255) > brightPixel)))
     {
       XV_HSV24 pv; pv.h = (u_char)NULL_HUE; pv.s = 0; pv.v = 0;
     }
-  
+
   switch (whichmax) {
   case 1:
     hue = (normalG - normalB) / delta;
@@ -457,13 +457,13 @@ XV_HSV24 RGBtoHSV(T pixel, int brightPixel = DEFAULT_BRIGHT_PIXEL,
   if (hue < 0.0)
     hue += 360.0;
 
-  XV_HSV24 pix; 
-  pix.h = (u_char)((hue / 0.694) + 0.5); 
+  XV_HSV24 pix;
+  pix.h = (u_char)((hue / 0.694) + 0.5);
   pix.s = (u_char)(sat * 255);
   pix.v = (u_char)(val * 255);
 
   return pix;
-}; 
+};
 
 template <class T>
 T HSVtoRGB(const XV_HSV24 & pixel){
@@ -474,7 +474,7 @@ T HSVtoRGB(const XV_HSV24 & pixel){
   }else{
     double h, s, v, f, p, q, t;
     int i;
-    
+
     h = pixel.h * 0.024;
     s = pixel.s / 255;
     v = pixel.v / 255;
@@ -485,34 +485,34 @@ T HSVtoRGB(const XV_HSV24 & pixel){
     t = v * (1.0 - (s * (1.0 - f)));
     T rp;
     switch(i){
-    case 0: 
-      rp.setR(pixel.v); 
-      rp.setG((u_char)(t * 255)); 
+    case 0:
+      rp.setR(pixel.v);
+      rp.setG((u_char)(t * 255));
       rp.setB((u_char)(p * 255));
       break;
-    case 1: 
-      rp.setR((u_char)(q * 255)); 
-      rp.setG(pixel.v); 
+    case 1:
+      rp.setR((u_char)(q * 255));
+      rp.setG(pixel.v);
       rp.setB((u_char)(p * 255));
       break;
-    case 2: 
-      rp.setR((u_char)(p * 255)); 
-      rp.setG(pixel.v); 
+    case 2:
+      rp.setR((u_char)(p * 255));
+      rp.setG(pixel.v);
       rp.setB((u_char)(t * 255));
       break;
-    case 3: 
-      rp.setR((u_char)(p * 255)); 
-      rp.setG((u_char)(q * 255)); 
+    case 3:
+      rp.setR((u_char)(p * 255));
+      rp.setG((u_char)(q * 255));
       rp.setB(pixel.v);
       break;
-    case 4: 
-      rp.setR((u_char)(t * 255)); 
-      rp.setG((u_char)(p * 255)); 
+    case 4:
+      rp.setR((u_char)(t * 255));
+      rp.setG((u_char)(p * 255));
       rp.setB(pixel.v);
       break;
-    case 5: 
-      rp.setR(pixel.v); 
-      rp.setG((u_char)(p * 255)); 
+    case 5:
+      rp.setR(pixel.v);
+      rp.setG((u_char)(p * 255));
       rp.setB((u_char)(q * 255));
       break;
     };
@@ -522,13 +522,13 @@ T HSVtoRGB(const XV_HSV24 & pixel){
 
 XV_YUV24 HSVtoYUV(XV_HSV24 p);
 
-float YUVtoHue(XV_YUV24 pixel, int brightPixel = DEFAULT_BRIGHT_PIXEL, 
+float YUVtoHue(XV_YUV24 pixel, int brightPixel = DEFAULT_BRIGHT_PIXEL,
 	       int darkPixel = DEFAULT_DARK_PIXEL);
 
-float YUV422toHue(XV_YUV422 pixel, int brightPixel = DEFAULT_BRIGHT_PIXEL, 
+float YUV422toHue(XV_YUV422 pixel, int brightPixel = DEFAULT_BRIGHT_PIXEL,
 		  int darkPixel = DEFAULT_DARK_PIXEL);
 
-float YCbCrtoHue(XV_YCbCr pixel, int brightPixel = DEFAULT_BRIGHT_PIXEL, 
+float YCbCrtoHue(XV_YCbCr pixel, int brightPixel = DEFAULT_BRIGHT_PIXEL,
 		  int darkPixel = DEFAULT_DARK_PIXEL);
 
 XV_HSV24 YUVtoHSV(XV_YUV24 pixel, int brightPixel = DEFAULT_BRIGHT_PIXEL,
@@ -536,10 +536,10 @@ XV_HSV24 YUVtoHSV(XV_YUV24 pixel, int brightPixel = DEFAULT_BRIGHT_PIXEL,
 
 XV_HSV24 YUV422toHSV(XV_YUV422 pixel, int brightPixel = DEFAULT_BRIGHT_PIXEL,
 		     int darkPixel = DEFAULT_DARK_PIXEL);
-    
+
 XV_HSV24 YCbCrtoHSV(XV_YCbCr pixel, int brightPixel = DEFAULT_BRIGHT_PIXEL,
 		     int darkPixel = DEFAULT_DARK_PIXEL);
-    
+
 // conversion functions
 
 inline void operator <<  (XV_RGB15 & pout, const XV_RGB15 & pin) {
@@ -555,14 +555,14 @@ inline void operator <<  (XV_RGB15 & pout, const XV_RGB16 & pin) {
 };
 
 inline void operator <<  (XV_RGB15 & pout, const XV_RGB24 & pin) {
-  
+
   pout.r = pin.r >> 3;
   pout.g = pin.g >> 3;
   pout.b = pin.b >> 3;
 };
 
 inline void operator <<  (XV_RGB15 & pout, const XV_TRGB24 & pin) {
-  
+
   pout.r = pin.r >> 3;
   pout.g = pin.g >> 3;
   pout.b = pin.b >> 3;
@@ -629,14 +629,14 @@ inline void operator <<  (XV_RGB16 & pout, const XV_RGB16 & pin) {
 };
 
 inline void operator <<  (XV_RGB16 & pout, const XV_RGB24 & pin) {
-  
+
   pout.r = pin.r >> 3;
   pout.g = pin.g >> 2;
   pout.b = pin.b >> 3;
 };
 
 inline void operator <<  (XV_RGB16 & pout, const XV_TRGB24 & pin) {
-  
+
   pout.r = pin.r >> 3;
   pout.g = pin.g >> 2;
   pout.b = pin.b >> 3;
@@ -698,14 +698,14 @@ inline void operator <<  (XV_RGB24 & pout, const XV_RGB15 & pin) {
 };
 
 inline void operator <<  (XV_RGB24 & pout, const XV_RGB16 & pin) {
-  
+
   pout.r = pin.r << 3;
   pout.g = pin.g << 3;
   pout.b = pin.b << 3;
 };
 
 inline void operator <<  (XV_RGB24 & pout, const XV_RGB24 & pin) {
-  
+
   pout = const_cast<XV_RGB24 &>(pin);
 };
 
@@ -714,7 +714,7 @@ inline void operator <<  (XV_RGB24 & pout, const XV_TRGB24 & pin) {
   pout.r = pin.r;
   pout.g = pin.g;
   pout.b = pin.b;
-  
+
 };
 
 inline void operator <<  (XV_RGB24 & pout, const XV_RGBA32 & pin) {
@@ -773,21 +773,21 @@ inline void operator <<  (XV_TRGB24 & pout, const XV_RGB15 & pin) {
 };
 
 inline void operator <<  (XV_TRGB24 & pout, const XV_RGB16 & pin) {
-  
+
   pout.r = pin.r << 3;
   pout.g = pin.g << 3;
   pout.b = pin.b << 3;
 };
 
 inline void operator <<  (XV_TRGB24 & pout, const XV_RGB24 & pin) {
-  
+
   pout.r = pin.r;
   pout.g = pin.g;
   pout.b = pin.b;
 };
 
 inline void operator <<  (XV_TRGB24 & pout, const XV_TRGB24 & pin) {
-  
+
   pout = const_cast<XV_TRGB24 &>(pin);
 };
 
@@ -854,14 +854,14 @@ inline void operator <<  (XV_GLRGBA32 & pout, const XV_RGB15 & pin) {
 };
 
 inline void operator <<  (XV_RGBA32 & pout, const XV_RGB16 & pin) {
-  
+
   pout.r = pin.r << 3;
   pout.g = pin.g << 2;
   pout.b = pin.b << 3;
 };
 
 inline void operator <<  (XV_GLRGBA32 & pout, const XV_RGB16 & pin) {
-  
+
   pout.r = pin.r << 3;
   pout.g = pin.g << 2;
   pout.b = pin.b << 3;
@@ -899,7 +899,7 @@ inline void operator <<  (XV_GLRGBA32 & pout, const XV_GLRGBA32 & pin) {
 };
 
 inline void operator <<  (XV_GLRGBA32 & pout, const XV_RGBA32 & pin) {
-  
+
   pout.r = pin.r;
   pout.g = pin.g;
   pout.b = pin.b;
@@ -907,7 +907,7 @@ inline void operator <<  (XV_GLRGBA32 & pout, const XV_RGBA32 & pin) {
 };
 
 inline void operator <<  (XV_RGBA32 & pout, const XV_GLRGBA32 & pin) {
-  
+
   pout.r = pin.r;
   pout.g = pin.g;
   pout.b = pin.b;
@@ -987,7 +987,7 @@ inline void operator <<  (RGB_TYPE & pout, const XV_HSV24 & pin) { \
 \
   RGB_TYPE tmp = HSVtoRGB<RGB_TYPE>(pin); \
   pout << tmp; \
-}; 
+};
 
 HSV_TO_RGB(XV_RGB15);
 HSV_TO_RGB(XV_RGB16);
@@ -1003,7 +1003,7 @@ inline void operator <<  (XV_YUV16 & pout, const PIX_TYPE & pin){ \
   pout.u = (u_char)(RGB2U(pin.R(), pin.G(), pin.B())); \
   pout.v = (u_char)(RGB2V(pin.R(), pin.G(), pin.B())); \
 };
- 
+
 RGB_TO_YUV16(XV_RGB15);
 RGB_TO_YUV16(XV_RGB16);
 RGB_TO_YUV16(XV_RGB24);
@@ -1018,7 +1018,7 @@ inline void operator <<  (XV_YUV24 & pout, const PIX_TYPE & pin){ \
   pout.u = (u_char)(RGB2U(pin.R(), pin.G(), pin.B())); \
   pout.v = (u_char)(RGB2V(pin.R(), pin.G(), pin.B())); \
 };
- 
+
 RGB_TO_YUV24(XV_RGB15);
 RGB_TO_YUV24(XV_RGB16);
 RGB_TO_YUV24(XV_RGB24);
@@ -1333,13 +1333,11 @@ inline XVImage_Type figure_out_type(XV_YCbCr x){ return XVImage_YCbCr;}
 #define PRINT_RGB_PIXEL(PIX) \
 inline ostream &operator << (ostream & output, const PIX & RGB) { \
   output.width(3); \
-  output<<'['; \
+  output<<static_cast<int>(RGB.r)<<'\t'; \
   output.width(3); \
-  output<<static_cast<int>(RGB.r)<<','; \
+  output<<static_cast<int>(RGB.g)<<'\t'; \
   output.width(3); \
-  output<<static_cast<int>(RGB.g)<<','; \
-  output.width(3); \
-  output<<static_cast<int>(RGB.b)<<']'; \
+  output<<static_cast<int>(RGB.b)<<'\t'; \
   return output; \
 };
 
@@ -1379,7 +1377,7 @@ RGB_CROSS_PROD(XV_GLRGBA32);
 #define RGB_LENGTH(PIX) \
 inline double length(const PIX & p){ \
   return sqrt((double)sqr(p.r) + sqr(p.g) + sqr(p.b)); \
-}; 
+};
 
 RGB_LENGTH(XV_RGB15);
 RGB_LENGTH(XV_RGB16);
@@ -1393,13 +1391,13 @@ inline PIX operator OP (const PIX & p1, const PIX & p2){ \
   PIX result; \
   result.r = p1.r OP p2.r; result.g = p1.g OP p2.g; result.b = p1.b OP p2.b; \
   return result; \
-}; 
+};
 
 #define MAKE_RGB_PIXEL_MODIFY_OP(OP, PIX) \
 inline PIX operator OP (PIX & p1, const PIX & p2){ \
   p1.r OP p2.r;  p1.g OP p2.g; p1.b OP p2.b; \
   return p1; \
-}; 
+};
 
 #define MAKE_RGB_PIXEL_CONST_SCALAR_OP(OP, PIX) \
 inline PIX operator OP (const PIX & p1, int val) { \

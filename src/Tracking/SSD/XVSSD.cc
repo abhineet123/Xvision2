@@ -21,8 +21,8 @@
 	return *this; \
 };
 
-_XVAffineSTATE_OP_EQ_(+=);
-_XVAffineSTATE_OP_EQ_(-=);
+_XVAffineSTATE_OP_EQ_( +=);
+_XVAffineSTATE_OP_EQ_( -=);
 
 
 #define _XVAffineSTATE_OP_(_OP_) \
@@ -47,8 +47,8 @@ XVSE2State & XVSE2State::operator _OP_ (const XVSE2State & addon) { \
   return *this; \
 };
 
-_XVSE2STATE_OP_EQ_(+=);
-_XVSE2STATE_OP_EQ_(-=);
+_XVSE2STATE_OP_EQ_( +=);
+_XVSE2STATE_OP_EQ_( -=);
 
 
 #define _XVSE2STATE_OP_(_OP_) \
@@ -71,8 +71,8 @@ XVRTState & XVRTState::operator _OP_ (const XVRTState & addon) { \
   return *this; \
 };
 
-_XVRTSTATE_OP_EQ_(+=);
-_XVRTSTATE_OP_EQ_(-=);
+_XVRTSTATE_OP_EQ_( +=);
+_XVRTSTATE_OP_EQ_( -=);
 
 #define _XVRTSTATE_OP_(_OP_) \
 XVRTState operator _OP_ (const XVRTState & s1, const XVRTState & s2) { \
@@ -93,8 +93,8 @@ XVRotateState & XVRotateState::operator _OP_ (const XVRotateState & addon) { \
   return *this; \
 };
 
-_XVRotateSTATE_OP_EQ_(+=);
-_XVRotateSTATE_OP_EQ_(-=);
+_XVRotateSTATE_OP_EQ_( +=);
+_XVRotateSTATE_OP_EQ_( -=);
 
 #define _XVRotateSTATE_OP_(_OP_) \
 XVRotateState operator _OP_ (const XVRotateState & s1, const XVRotateState & s2) { \
@@ -114,52 +114,52 @@ static void
 check_brightness(XVImageScalar<float> &im) {
     XVImageWIterator<float> iter(im);
     for(; !iter.end(); ++iter) {
-        if(*iter>200) *iter=0;
+        if(*iter > 200) *iter = 0;
     }
 }
 
 #define OUTLIER_THRESH 35
 static void
-check_outliers(XVColVector &diff_vec,double & err) {
-    int         turnoffs=0;
+check_outliers(XVColVector &diff_vec, double & err) {
+    int         turnoffs = 0;
 
-    for(int i=0; i<diff_vec.n_of_rows(); i++) {
-        if(fabs(diff_vec[i])>OUTLIER_THRESH) {
-            diff_vec[i]=OUTLIER_THRESH/fabs(diff_vec[i])*diff_vec[i];
+    for(int i = 0; i < diff_vec.n_of_rows(); i++) {
+        if(fabs(diff_vec[i]) > OUTLIER_THRESH) {
+            diff_vec[i] = OUTLIER_THRESH / fabs(diff_vec[i]) * diff_vec[i];
             turnoffs++;
         }
     }
-    err=(double)turnoffs/diff_vec.n_of_rows();
+    err = (double) turnoffs / diff_vec.n_of_rows();
 }
 
 /*********************************XVSSDStepper*********************************/
 
 
 template <class IM_TYPE, class ST_TYPE>
-XVSSDStepper<IM_TYPE, ST_TYPE >::XVSSDStepper(const IM_TYPE & itemplate_in ) {
+XVSSDStepper<IM_TYPE, ST_TYPE >::XVSSDStepper(const IM_TYPE & itemplate_in) {
 
     XVImageScalar<float> template_in;
-    RGBtoScalar(itemplate_in,template_in);
-    size = (XVSize)template_in;
+    RGBtoScalar(itemplate_in, template_in);
+    size = (XVSize) template_in;
 
-    Dx = XVBoxFilterY(XVPrewittFilterX(template_in, (float)0),
-                      3, (float)6);
-    Dy = XVBoxFilterX(XVPrewittFilterY(template_in, (float)0),
-                      3, (float)6);
+    Dx = XVBoxFilterY(XVPrewittFilterX(template_in, (float) 0),
+                      3, (float) 6);
+    Dy = XVBoxFilterX(XVPrewittFilterY(template_in, (float) 0),
+                      3, (float) 6);
 
     target = XVBoxFilter(template_in - template_in.avg(), 3, 3);
-    forward_model.resize(target.Width()*target.Height(),0);
+    forward_model.resize(target.Width() *target.Height(), 0);
 
-    X = XVImageScalar<float>(target.Width(), target.Height());
-    Y = XVImageScalar<float>(target.Width(), target.Height());
+    X = XVImageScalar<float> (target.Width(), target.Height());
+    Y = XVImageScalar<float> (target.Width(), target.Height());
 
     XVImageWIterator<float > Xiter(X);
     XVImageWIterator<float > Yiter(Y);
 
     for(; !Xiter.end(); ++Xiter, ++Yiter) {
 
-        *Xiter = (float)Xiter.currposx();
-        *Yiter = (float)Yiter.currposy();
+        *Xiter = (float) Xiter.currposx();
+        *Yiter = (float) Yiter.currposy();
     }
 };
 
@@ -183,7 +183,7 @@ void XVAffineStepper<IM_TYPE >::offlineInit() {
 
     forward_model = add_column(forward_model, target);
 
-    inverse_model = (((forward_model.t()*forward_model).i())*forward_model.t());
+    inverse_model = (((forward_model.t() * forward_model).i()) * forward_model.t());
 };
 template <class IM_TYPE>
 XVStatePair<XVAffineState, double>
@@ -192,26 +192,26 @@ XVAffineStepper<IM_TYPE >::step(const XVImageScalar<float>    & live_image,
 
     XVColVector result(7);
     XVMatrix sigma(7, 7);
-    double error=0.0;
+    double error = 0.0;
 
-    diff_intensity << (XVBoxFilter(live_image-live_image.avg(), 3, 3) - target);
-    check_outliers(diff_intensity,error);
+    diff_intensity << (XVBoxFilter(live_image - live_image.avg(), 3, 3) - target);
+    check_outliers(diff_intensity, error);
 
     XVAffineMatrix A(oldState.a, oldState.b, oldState.c, oldState.d);
-    XVMatrix A_inv=A.i();
+    XVMatrix A_inv = A.i();
 
     sigma = 0;
-    for(int i=0; i<=2; i++) {
-        sigma[2*i][2*i]=A_inv[0][0];
-        sigma[2*i+1][2*i]=A_inv[1][0];
-        sigma[2*i][2*i+1]=A_inv[0][1];
-        sigma[2*i+1][2*i+1]=A_inv[1][1];
+    for(int i = 0; i <= 2; i++) {
+        sigma[2 * i][2 * i] = A_inv[0][0];
+        sigma[2 * i + 1][2 * i] = A_inv[1][0];
+        sigma[2 * i][2 * i + 1] = A_inv[0][1];
+        sigma[2 * i + 1][2 * i + 1] = A_inv[1][1];
     }
     sigma[6][6] = 1;
-    result = sigma.t() * (inverse_model * diff_intensity);
+    result = (sigma.i()).t() * (inverse_model * diff_intensity);
 
     XVAffineState deltaMu;
-    deltaMu.trans = XV2Vec<double>(-result[0], -result[1]);
+    deltaMu.trans = XV2Vec<double> (-result[0], -result[1]);
     deltaMu.a = result[2];
     deltaMu.b = result[3];
     deltaMu.c = result[4];
@@ -229,10 +229,10 @@ XVImageScalar<float> XVAffineStepper<IM_TYPE >::warp(const IM_TYPE    & image,
 
     XVImageScalar<float> tmp;
     XVAffineMatrix warp_matrix(state.a, state.b, state.c, state.d);
-    IM_TYPE warped_image=warpRect(image, (XVPosition)state.trans, size,warp_matrix);
+    IM_TYPE warped_image = warpRect(image, (XVPosition) state.trans, size, warp_matrix);
     RGBtoScalar(warped_image, tmp);
 
-    return(tmp);
+    return (tmp);
 };
 
 
@@ -253,7 +253,7 @@ void XVSE2Stepper<IM_TYPE >::offlineInit() {
 
     forward_model = add_column(forward_model, target);
 
-    inverse_model = (((forward_model.t()*forward_model).i())*forward_model.t());
+    inverse_model = (((forward_model.t() * forward_model).i()) * forward_model.t());
 };
 
 
@@ -264,10 +264,10 @@ XVSE2Stepper<IM_TYPE >::step(const XVImageScalar<float>    & live_image,
 
     XVColVector result(5);
     XVMatrix sigma(5, 5);
-    double error=0.0;
+    double error = 0.0;
 
-    diff_intensity << (XVBoxFilter(live_image-live_image.avg(), 3, 3) - target);
-    check_outliers(diff_intensity,error);
+    diff_intensity << (XVBoxFilter(live_image - live_image.avg(), 3, 3) - target);
+    check_outliers(diff_intensity, error);
 
     XVAffineMatrix rotMatrix(oldState.angle);
     sigma = 0;
@@ -281,7 +281,7 @@ XVSE2Stepper<IM_TYPE >::step(const XVImageScalar<float>    & live_image,
     result = sigma.t() * (inverse_model * diff_intensity);
 
     XVSE2State deltaMu;
-    deltaMu.trans = XV2Vec<double>(-result[0], -result[1]);
+    deltaMu.trans = XV2Vec<double> (-result[0], -result[1]);
     deltaMu.angle = result[2];
     deltaMu.scale = result[3];
 
@@ -295,11 +295,11 @@ XVImageScalar<float> XVSE2Stepper<IM_TYPE >::warp(const IM_TYPE    & image,
         const XVSE2State & state) {
 
     XVImageScalar<float> tmp;
-    IM_TYPE warped_image=warpRect(image, (XVPosition)state.trans, size,
-                                  state.angle, state.scale, state.scale, 0);
+    IM_TYPE warped_image = warpRect(image, (XVPosition) state.trans, size,
+                                    state.angle, state.scale, state.scale, 0);
     RGBtoScalar(warped_image, tmp);
 
-    return( tmp );
+    return (tmp);
 };
 
 /*********************************XVRTStepper*********************************/
@@ -314,7 +314,7 @@ void XVRTStepper<IM_TYPE >::offlineInit() {
 
     forward_model = add_column(forward_model, XDyYDx);
     forward_model = add_column(forward_model, target);
-    inverse_model = (((forward_model.t()*forward_model).i())*forward_model.t());
+    inverse_model = (((forward_model.t() * forward_model).i()) * forward_model.t());
 
 };
 
@@ -325,10 +325,10 @@ XVRTStepper<IM_TYPE >::step(const XVImageScalar<float>    & live_image,
 
     XVColVector result(4);
     XVMatrix sigma(4, 4);
-    double error=0.0;
+    double error = 0.0;
 
-    diff_intensity << (XVBoxFilter(live_image-live_image.avg(), 3, 3) - target);
-    check_outliers(diff_intensity,error);
+    diff_intensity << (XVBoxFilter(live_image - live_image.avg(), 3, 3) - target);
+    check_outliers(diff_intensity, error);
 
     XVAffineMatrix rotMatrix(oldState.angle);
     sigma = 0;
@@ -341,7 +341,7 @@ XVRTStepper<IM_TYPE >::step(const XVImageScalar<float>    & live_image,
     result = sigma.t() * (inverse_model * diff_intensity);
 
     XVRTState deltaMu;
-    deltaMu.trans = XV2Vec<double>(-result[0], -result[1]);
+    deltaMu.trans = XV2Vec<double> (-result[0], -result[1]);
     deltaMu.angle = result[2];
 
     XVStatePair<XVRTState, double> ret(deltaMu, error);
@@ -355,12 +355,68 @@ XVImageScalar<float> XVRTStepper<IM_TYPE >::warp(const IM_TYPE    & image,
         const XVRTState & state) {
 
     XVImageScalar<float> tmp;
-    IM_TYPE warped_image=warpRect(image, (XVPosition)state.trans, size,
-                                  state.angle);
+    IM_TYPE warped_image = warpRect(image, (XVPosition) state.trans, size,
+                                    state.angle);
     RGBtoScalar(warped_image, tmp);
 
-    return( tmp );
+    return (tmp);
 };
+
+///*********************************XVScalingStepper*********************************/
+//
+//
+//
+//template <class IM_TYPE>
+//void XVScalingStepper<IM_TYPE >::offlineInit() {
+//    XVImageScalar<float> XDx = X * Dx;
+//    XVImageScalar<float> YDy = Y * Dy;
+//
+//    forward_model = add_column(forward_model, XDx);
+//    forward_model = add_column(forward_model, YDy);
+//    forward_model = add_column(forward_model, target);
+//    inverse_model = (((forward_model.t() * forward_model).i()) * forward_model.t());
+//
+//};
+//
+//template <class IM_TYPE>
+//XVStatePair<XVScalingState, double>
+//XVScalingStepper<IM_TYPE >::step(const XVImageScalar<float>    & live_image,
+//                                 const XVScalingState & oldState) {
+//
+//    XVColVector result(3);
+//    XVMatrix sigma(3, 3);
+//    double error = 0.0;
+//
+//    diff_intensity << (XVBoxFilter(live_image - live_image.avg(), 3, 3) - target);
+//    check_outliers(diff_intensity, error);
+//
+//    sigma = 0;
+//    sigma[0][0] = 1.0 / oldState.scale;
+//    sigma[1][1] = 1.0 / ooldState.scale;
+//    sigma[2][2] = 1;
+//    result = sigma.t() * (inverse_model * diff_intensity);
+//
+//    XVScalingState deltaMu;
+//    deltaMu.trans = XV2Vec<double> (-result[0], -result[1]);
+//    deltaMu.angle = result[2];
+//
+//    XVStatePair<XVScalingState, double> ret(deltaMu, error);
+//
+//    return ret;
+//};
+//
+//template <class IM_TYPE>
+//XVImageScalar<float> XVScalingStepper<IM_TYPE >::warp(const IM_TYPE    & image,
+//        const XVScalingState & state) {
+//
+//    XVImageScalar<float> tmp;
+//    IM_TYPE warped_image = warpRect(image, (XVPosition) state.trans, size,
+//                                    state.angle);
+//    RGBtoScalar(warped_image, tmp);
+//
+//    return (tmp);
+//
+//};
 
 
 /*********************************XVRotateStepper*********************************/
@@ -376,7 +432,7 @@ void XVRotateStepper<IM_TYPE >::offlineInit() {
     XVImageScalar<float> XDyYDx = (X * Dy) - (Y * Dx);
     forward_model = add_column(forward_model, XDyYDx);
     forward_model = add_column(forward_model, target);
-    inverse_model = (((forward_model.t()*forward_model).i())*forward_model.t());
+    inverse_model = (((forward_model.t() * forward_model).i()) * forward_model.t());
 
 };
 
@@ -387,10 +443,10 @@ XVRotateStepper<IM_TYPE >::step(const XVImageScalar<float>    & live_image,
 
     XVColVector result(4);
     XVMatrix sigma(4, 4);
-    double error=0.0;
+    double error = 0.0;
 
-    diff_intensity << (XVBoxFilter(live_image-live_image.avg(), 3, 3) - target);
-    check_outliers(diff_intensity,error);
+    diff_intensity << (XVBoxFilter(live_image - live_image.avg(), 3, 3) - target);
+    check_outliers(diff_intensity, error);
 
     XVAffineMatrix rotMatrix(oldState.angle);
     sigma = 0;
@@ -403,7 +459,7 @@ XVRotateStepper<IM_TYPE >::step(const XVImageScalar<float>    & live_image,
     result = sigma.t() * (inverse_model * diff_intensity);
 
     XVRotateState deltaMu;
-    deltaMu.trans = XV2Vec<double>(-result[0], -result[1]);
+    deltaMu.trans = XV2Vec<double> (-result[0], -result[1]);
     deltaMu.angle = result[2];
 
     XVStatePair<XVRotateState, double> ret(deltaMu, error);
@@ -416,11 +472,11 @@ XVImageScalar<float> XVRotateStepper<IM_TYPE >::warp(const IM_TYPE    & image,
         const XVRotateState & state) {
 
     XVImageScalar<float> tmp;
-    IM_TYPE warped_image=warpRect(image, (XVPosition)state.trans, size,
-                                  state.angle);
+    IM_TYPE warped_image = warpRect(image, (XVPosition) state.trans, size,
+                                    state.angle);
     RGBtoScalar(warped_image, tmp);
 
-    return( tmp );
+    return (tmp);
 
 };
 
@@ -446,12 +502,12 @@ XVTransStepper<IM_TYPE >::step(const XVImageScalar<float>      & live_image,
     double error ;
 
     result[0]  = result[1] = result[2] = 0;
-    diff_intensity << (XVBoxFilter(live_image-live_image.avg(), 3, 3) - target);
+    diff_intensity << (XVBoxFilter(live_image - live_image.avg(), 3, 3) - target);
 
     result =  inverse_model * diff_intensity;
 
-    XVTransState deltaMu(-result[1],-result[2]);
-    error = (diff_intensity - (forward_model * result)).ip()/diff_intensity.n_of_rows();
+    XVTransState deltaMu(-result[1], -result[2]);
+    error = (diff_intensity - (forward_model * result)).ip() / diff_intensity.n_of_rows();
 
     return ResultPair(deltaMu, error);
 };
@@ -460,7 +516,7 @@ template <class IM_TYPE>
 XVImageScalar<float> XVTransStepper<IM_TYPE >::warp(const IM_TYPE      & image,
         const XVTransState & state) {
     XVImageScalar<float> tmp;
-    IM_TYPE warped_image=warpRect(image, (XVPosition)state, size, 0);
+    IM_TYPE warped_image = warpRect(image, (XVPosition) state, size, 0);
 
     RGBtoScalar(warped_image, tmp);
     return tmp;
@@ -471,99 +527,99 @@ XVImageScalar<float> XVTransStepper<IM_TYPE >::warp(const IM_TYPE      & image,
 
 template <class STEPPER_TYPE>
 XVImageScalar<float> XVPyramidStepper<STEPPER_TYPE>::upperLayer
-( const XVImageScalar<float>& lower ) {
+(const XVImageScalar<float>& lower) {
     // need a faster version of convolve-and-resample here -- Donald
     const int ksize = 5 ;
     static float kernel[ksize] = { 0.0614, 0.2448, 0.3877, 0.2448, 0.0614 } ;
     static XVImageScalar<float>
-    kernelX( ksize, 1, new XVPixmap<float>( ksize, 1, kernel, false ) ),
-             kernelY( 1, ksize, new XVPixmap<float>( 1, ksize, kernel, false ) ) ;
+    kernelX(ksize, 1, new XVPixmap<float> (ksize, 1, kernel, false)),
+            kernelY(1, ksize, new XVPixmap<float> (1, ksize, kernel, false)) ;
 
     XVImageScalar<float> temp1, mid, temp2, upper ;
 
     //convolve( lower, temp1, kernelX, 0 );
-    XVBoxFilterX( lower, 3, 3.0f, temp1 );
-    resample( scale_factor, 1, temp1, mid );
+    XVBoxFilterX(lower, 3, 3.0f, temp1);
+    resample(scale_factor, 1, temp1, mid);
     //convolve( mid, temp2, kernelY, 0 );
-    XVBoxFilterY( mid, 3, 3.0f, temp2 );
-    resample( 1, scale_factor, temp2, upper );
+    XVBoxFilterY(mid, 3, 3.0f, temp2);
+    resample(1, scale_factor, temp2, upper);
 
     return upper ;
 }
 
 template <class STEPPER_TYPE>
 XVPyramidStepper<STEPPER_TYPE>::XVPyramidStepper
-( const typename STEPPER_TYPE::IMAGE_TYPE& template_in, double scale,
-  int levels ) {
+(const typename STEPPER_TYPE::IMAGE_TYPE& template_in, double scale,
+ int levels) {
     // since the constructor of a stepper asks for a template image of IM_TYPE
     // instead of that of XVImageScalar<float> (and do the conversion internally)
     // here we have to implicitly convert to IM_TYPE needlessly
     scale_factor = scale ;
-    steppers.push_back( STEPPER_TYPE(template_in) );
+    steppers.push_back(STEPPER_TYPE(template_in));
     XVImageScalar<float> temp ;
     temp = (XVImageScalar<float>) template_in ;
-    for( levels -- ; levels > 0 ; levels -- ) {
-        temp = upperLayer( temp );
-        steppers.push_back( STEPPER_TYPE( (IM_TYPE)temp) );
+    for(levels -- ; levels > 0 ; levels --) {
+        temp = upperLayer(temp);
+        steppers.push_back(STEPPER_TYPE((IM_TYPE) temp));
     }
-    savedImage.resize(1,1); // let it alloc a dummy pixmap
+    savedImage.resize(1, 1);    // let it alloc a dummy pixmap
 }
 
 template <class STEPPER_TYPE>
 void XVPyramidStepper<STEPPER_TYPE>::offlineInit() {
-    for( int i = 0 ; i < steppers.size() ; i ++ ) {
+    for(int i = 0 ; i < steppers.size() ; i ++) {
         steppers[i].offlineInit() ;
     }
 }
 
 namespace {
 
-template<class ST_TYPE> void scaleUp( ST_TYPE& state, double x ) {
+template<class ST_TYPE> void scaleUp(ST_TYPE& state, double x) {
     state *= x ;
 }
 
-template<> void scaleUp( XVRotateState& state, double x ) {
-    state.trans*= x ;
-}
-
-template<> void scaleUp( XVRTState& state, double x ) {
+template<> void scaleUp(XVRotateState& state, double x) {
     state.trans *= x ;
 }
 
-template<> void scaleUp( XVSE2State& state, double x ) {
+template<> void scaleUp(XVRTState& state, double x) {
+    state.trans *= x ;
+}
+
+template<> void scaleUp(XVSE2State& state, double x) {
     state.trans *= x ;
 }
 
 
-template<> void scaleUp( XVAffineState& state, double x ) {
+template<> void scaleUp(XVAffineState& state, double x) {
     state.trans *= x ;
 }
 
 }
 
 template <class STEPPER_TYPE>
-XVStatePair<typename STEPPER_TYPE::STATE_TYPE,double>
+XVStatePair<typename STEPPER_TYPE::STATE_TYPE, double>
 XVPyramidStepper<STEPPER_TYPE>::step
-( const XVImageScalar<float>& live_image,
-  const typename STEPPER_TYPE::STATE_TYPE& old_state ) {
+(const XVImageScalar<float>& live_image,
+ const typename STEPPER_TYPE::STATE_TYPE& old_state) {
     // a hack here -- assuming the same image as saved in warp()
     int i, j ;
     ST_TYPE new_state = old_state ;
     ResultPair delta_state ;
     XVImageScalar<float> currentImage = live_image ;
 
-    for( i = steppers.size()-1 ; i >= 0 ; i -- ) {
-        if( i != steppers.size()-1 ) {
-            currentImage = steppers[0].warp( savedImage, new_state );
+    for(i = steppers.size() - 1 ; i >= 0 ; i --) {
+        if(i != steppers.size() - 1) {
+            currentImage = steppers[0].warp(savedImage, new_state);
         }
-        for( j = 0 ; j < i ; j ++ ) {
-            currentImage = upperLayer( currentImage );
+        for(j = 0 ; j < i ; j ++) {
+            currentImage = upperLayer(currentImage);
         }
 
-        delta_state = steppers[i].step( currentImage, new_state );
+        delta_state = steppers[i].step(currentImage, new_state);
 
-        for( j = 0 ; j < i ; j ++ ) {
-            scaleUp( delta_state.state, 1/scale_factor );
+        for(j = 0 ; j < i ; j ++) {
+            scaleUp(delta_state.state, 1 / scale_factor);
         }
         new_state += delta_state.state ;
     }
@@ -573,10 +629,10 @@ XVPyramidStepper<STEPPER_TYPE>::step
 
 template <class STEPPER_TYPE>
 XVImageScalar<float> XVPyramidStepper<STEPPER_TYPE>::warp
-( const typename STEPPER_TYPE::IMAGE_TYPE& image,
-  const typename STEPPER_TYPE::STATE_TYPE& state ) {
+(const typename STEPPER_TYPE::IMAGE_TYPE& image,
+ const typename STEPPER_TYPE::STATE_TYPE& state) {
     savedImage = image ; // a hack -- see step()
-    return steppers[0].warp( image, state );
+    return steppers[0].warp(image, state);
 }
 
 /*********************************XVSSD*********************************/
