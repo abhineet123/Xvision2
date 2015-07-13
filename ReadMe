@@ -1,5 +1,25 @@
 1) make
 2)sudo make install  
+
+If you get any errors like:
+
+make[1]: *** No rule to make target `/usr/local/include/opencv2/core/core.hpp', needed by `XVStereoRectify.o'.  Stop.
+
+Find all the ".depend" files in the sub folders inside "src" (like Consoles, Devices, Tools, etc) and replace all occurences of "/usr/local/include/opencv2" 
+with the actual location where "opencv2" include files are present in your system (usually "/usr/include/opencv2")
+
+Note that these ".depend" files are hidden by default so you may need to enable "show hidden files" if using a GUI file browser.
+You may need to repeat this for any other include directories whose paths need to be changed.
+
+If you get an error like:
+
+../..//include/XVImageRGB.h:1:1: error: expected unqualified-id before ‘.’ token
+ ../src/Images/XVImageRGB.h
+
+This means that the synbolic link files in the "include" folder are being treated as ordinary header files. 
+This is usually because the disk where your xvision2 folder resides has a file system (like FAT32 or NTFS) does not support symbolic links.You can either move it to a linux supported filesystem (like ext3) 
+or replace all the .h files in the "include" folder with the actual header files whose location they contain.
+
   
 DO NOT run 'make config'    
                
