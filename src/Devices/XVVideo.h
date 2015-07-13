@@ -187,14 +187,19 @@ public:
 
     IMTYPE * remap(typename IMTYPE::PIXELTYPE * mm_buf[],int n_buffers);
 
+    const XVSize& get_size(){
+        return size;
+    }
+
     // added by Donald: whether the last acquired image from device is
     // valid or not (not necessarily equivalent to the last image the
     // appilcation gets from a XVVideo derived object, but a good indicator)
     // not yet implemented in derived classes so don't rely on it
 
-    virtual bool good(void) {
+        virtual bool good(void) {
         return true ;
     }
+
 };
 #endif
 

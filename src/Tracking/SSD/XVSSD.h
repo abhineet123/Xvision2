@@ -51,20 +51,20 @@ public:
 };
 XVRotateState operator + (const XVRotateState &, const XVRotateState &);
 XVRotateState operator - (const XVRotateState &, const XVRotateState &);
-//
-//class XVScalingState {
-//
-//public:
-//
-//    XVTransState    trans;
-//    XVRotState      angle;
-//    XVScaleState    scale;
-//
-//    XVScalingState & operator += (const XVScalingState &);
-//    XVScalingState & operator -= (const XVScalingState &);
-//};
-//XVScalingState operator + (const XVScalingState &, const XVScalingState &);
-//XVScalingState operator - (const XVScalingState &, const XVScalingState &);
+
+class XVScalingState {
+
+public:
+
+    XVTransState    trans;
+    XVRotState      angle;
+    XVScaleState    scale;
+
+    XVScalingState & operator += (const XVScalingState &);
+    XVScalingState & operator -= (const XVScalingState &);
+};
+XVScalingState operator + (const XVScalingState &, const XVScalingState &);
+XVScalingState operator - (const XVScalingState &, const XVScalingState &);
 
 class XVRTState {
 
@@ -172,32 +172,6 @@ public:
 };
 
 template <class IM_TYPE>
-class XVTransStepper : public XVSSDStepper<IM_TYPE, XVTransState > {
-protected:
-    using XVSSDStepper<IM_TYPE,XVTransState>::target ;
-    using XVSSDStepper<IM_TYPE,XVTransState>::X ;
-    using XVSSDStepper<IM_TYPE,XVTransState>::Y ;
-    using XVSSDStepper<IM_TYPE,XVTransState>::Dx ;
-    using XVSSDStepper<IM_TYPE,XVTransState>::Dy ;
-    using XVSSDStepper<IM_TYPE,XVTransState>::inverse_model ;
-    using XVSSDStepper<IM_TYPE,XVTransState>::forward_model ;
-    using XVSSDStepper<IM_TYPE,XVTransState>::diff_intensity ;
-    using XVSSDStepper<IM_TYPE,XVTransState>::size ;
-
-public:
-
-    typedef typename XVSSDStepper<IM_TYPE,XVTransState>::ResultPair ResultPair ;
-
-    XVTransStepper() : XVSSDStepper<IM_TYPE, XVTransState >() {}
-    XVTransStepper(const IM_TYPE & tmpl)
-        : XVSSDStepper<IM_TYPE, XVTransState >(tmpl) {}
-
-    virtual void offlineInit();
-    virtual ResultPair step(const XVImageScalar<float> &, const XVTransState &);
-    virtual XVImageScalar<float> warp(const IM_TYPE &, const XVTransState &);
-};
-
-template <class IM_TYPE>
 class XVAffineStepper : public XVSSDStepper<IM_TYPE, XVAffineState > {
 protected:
     using XVSSDStepper<IM_TYPE,XVAffineState>::target ;
@@ -269,29 +243,29 @@ public:
     virtual XVImageScalar<float> warp(const IM_TYPE &, const XVRTState &);
 };
 
-//template <class IM_TYPE>
-//class XVScalingStepper : public XVSSDStepper<IM_TYPE, XVScalingState > {
-//protected:
-//	using XVSSDStepper<IM_TYPE,XVScalingState>::target ;
-//	using XVSSDStepper<IM_TYPE,XVScalingState>::X ;
-//	using XVSSDStepper<IM_TYPE,XVScalingState>::Y ;
-//	using XVSSDStepper<IM_TYPE,XVScalingState>::Dx ;
-//	using XVSSDStepper<IM_TYPE,XVScalingState>::Dy ;
-//	using XVSSDStepper<IM_TYPE,XVScalingState>::inverse_model ;
-//	using XVSSDStepper<IM_TYPE,XVScalingState>::forward_model ;
-//	using XVSSDStepper<IM_TYPE,XVScalingState>::diff_intensity ;
-//	using XVSSDStepper<IM_TYPE,XVScalingState>::size ;
-//
-//public:
-//	XVRotateStepper() : XVSSDStepper<IM_TYPE, XVScalingState >() {}
-//	XVRotateStepper(const IM_TYPE & tmpl)
-//		: XVSSDStepper<IM_TYPE, XVScalingState >(tmpl){}
-//
-//	virtual void offlineInit();
-//	virtual XVStatePair<XVScalingState, double> step(const XVImageScalar<float> &,
-//		const XVScalingState &);
-//	virtual XVImageScalar<float> warp(const IM_TYPE &, const XVScalingState &);
-//};
+template <class IM_TYPE>
+class XVScalingStepper : public XVSSDStepper<IM_TYPE, XVScalingState > {
+protected:
+	using XVSSDStepper<IM_TYPE,XVScalingState>::target ;
+	using XVSSDStepper<IM_TYPE,XVScalingState>::X ;
+	using XVSSDStepper<IM_TYPE,XVScalingState>::Y ;
+	using XVSSDStepper<IM_TYPE,XVScalingState>::Dx ;
+	using XVSSDStepper<IM_TYPE,XVScalingState>::Dy ;
+	using XVSSDStepper<IM_TYPE,XVScalingState>::inverse_model ;
+	using XVSSDStepper<IM_TYPE,XVScalingState>::forward_model ;
+	using XVSSDStepper<IM_TYPE,XVScalingState>::diff_intensity ;
+	using XVSSDStepper<IM_TYPE,XVScalingState>::size ;
+
+public:
+	XVScalingStepper() : XVSSDStepper<IM_TYPE, XVScalingState >() {}
+	XVScalingStepper(const IM_TYPE & tmpl)
+		: XVSSDStepper<IM_TYPE, XVScalingState >(tmpl){}
+
+	virtual void offlineInit();
+	virtual XVStatePair<XVScalingState, double> step(const XVImageScalar<float> &,
+		const XVScalingState &);
+	virtual XVImageScalar<float> warp(const IM_TYPE &, const XVScalingState &);
+};
 
 
 template <class IM_TYPE>
@@ -316,6 +290,32 @@ public:
     virtual XVStatePair<XVRotateState, double> step(const XVImageScalar<float> &,
             const XVRotateState &);
     virtual XVImageScalar<float> warp(const IM_TYPE &, const XVRotateState &);
+};
+
+template <class IM_TYPE>
+class XVTransStepper : public XVSSDStepper<IM_TYPE, XVTransState > {
+protected:
+    using XVSSDStepper<IM_TYPE,XVTransState>::target ;
+    using XVSSDStepper<IM_TYPE,XVTransState>::X ;
+    using XVSSDStepper<IM_TYPE,XVTransState>::Y ;
+    using XVSSDStepper<IM_TYPE,XVTransState>::Dx ;
+    using XVSSDStepper<IM_TYPE,XVTransState>::Dy ;
+    using XVSSDStepper<IM_TYPE,XVTransState>::inverse_model ;
+    using XVSSDStepper<IM_TYPE,XVTransState>::forward_model ;
+    using XVSSDStepper<IM_TYPE,XVTransState>::diff_intensity ;
+    using XVSSDStepper<IM_TYPE,XVTransState>::size ;
+
+public:
+
+    typedef typename XVSSDStepper<IM_TYPE,XVTransState>::ResultPair ResultPair ;
+
+    XVTransStepper() : XVSSDStepper<IM_TYPE, XVTransState >() {}
+    XVTransStepper(const IM_TYPE & tmpl)
+        : XVSSDStepper<IM_TYPE, XVTransState >(tmpl) {}
+
+    virtual void offlineInit();
+    virtual ResultPair step(const XVImageScalar<float> &, const XVTransState &);
+    virtual XVImageScalar<float> warp(const IM_TYPE &, const XVTransState &);
 };
 
 template <class STEPPER_TYPE>

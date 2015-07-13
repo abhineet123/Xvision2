@@ -21,8 +21,8 @@
 	return *this; \
 };
 
-_XVAffineSTATE_OP_EQ_( +=);
-_XVAffineSTATE_OP_EQ_( -=);
+_XVAffineSTATE_OP_EQ_( += );
+_XVAffineSTATE_OP_EQ_( -= );
 
 
 #define _XVAffineSTATE_OP_(_OP_) \
@@ -47,8 +47,8 @@ XVSE2State & XVSE2State::operator _OP_ (const XVSE2State & addon) { \
   return *this; \
 };
 
-_XVSE2STATE_OP_EQ_( +=);
-_XVSE2STATE_OP_EQ_( -=);
+_XVSE2STATE_OP_EQ_( += );
+_XVSE2STATE_OP_EQ_( -= );
 
 
 #define _XVSE2STATE_OP_(_OP_) \
@@ -71,8 +71,8 @@ XVRTState & XVRTState::operator _OP_ (const XVRTState & addon) { \
   return *this; \
 };
 
-_XVRTSTATE_OP_EQ_( +=);
-_XVRTSTATE_OP_EQ_( -=);
+_XVRTSTATE_OP_EQ_( += );
+_XVRTSTATE_OP_EQ_( -= );
 
 #define _XVRTSTATE_OP_(_OP_) \
 XVRTState operator _OP_ (const XVRTState & s1, const XVRTState & s2) { \
@@ -93,8 +93,8 @@ XVRotateState & XVRotateState::operator _OP_ (const XVRotateState & addon) { \
   return *this; \
 };
 
-_XVRotateSTATE_OP_EQ_( +=);
-_XVRotateSTATE_OP_EQ_( -=);
+_XVRotateSTATE_OP_EQ_( += );
+_XVRotateSTATE_OP_EQ_( -= );
 
 #define _XVRotateSTATE_OP_(_OP_) \
 XVRotateState operator _OP_ (const XVRotateState & s1, const XVRotateState & s2) { \
@@ -107,6 +107,28 @@ XVRotateState operator _OP_ (const XVRotateState & s1, const XVRotateState & s2)
 
 _XVRotateSTATE_OP_(+);
 _XVRotateSTATE_OP_(-);
+
+#define _XVScalingSTATE_OP_EQ_(_OP_) \
+XVScalingState & XVScalingState::operator _OP_ (const XVScalingState & addon) { \
+  this->scale _OP_ addon.scale; \
+  return *this; \
+};
+
+_XVScalingSTATE_OP_EQ_( += );
+_XVScalingSTATE_OP_EQ_( -= );
+
+#define _XVScalingSTATE_OP_(_OP_) \
+XVScalingState operator _OP_ (const XVScalingState & s1, const XVScalingState & s2) { \
+\
+  XVScalingState res; \
+  res.trans = s1.trans; \
+  res.angle = s1.angle; \
+  res.scale = s1.scale _OP_ s2.scale; \
+  return res; \
+};
+
+_XVScalingSTATE_OP_(+);
+_XVScalingSTATE_OP_(-);
 
 /*********************************Misc Functions*********************************/
 
@@ -197,25 +219,25 @@ XVAffineStepper<IM_TYPE >::step(const XVImageScalar<float>    & live_image,
     diff_intensity << (XVBoxFilter(live_image - live_image.avg(), 3, 3) - target);
     check_outliers(diff_intensity, error);
 
-    XVAffineMatrix A(oldState.a, oldState.b, oldState.c, oldState.d);
-    XVMatrix A_inv = A.i();
-
     sigma = 0;
     for(int i = 0; i <= 2; i++) {
-        sigma[2 * i][2 * i] = A_inv[0][0];
-        sigma[2 * i + 1][2 * i] = A_inv[1][0];
-        sigma[2 * i][2 * i + 1] = A_inv[0][1];
-        sigma[2 * i + 1][2 * i + 1] = A_inv[1][1];
+        sigma[2 * i][2 * i] = oldState.a;
+        sigma[2 * i + 1][2 * i] = oldState.b;
+        sigma[2 * i][2 * i + 1] = oldState.c;
+        sigma[2 * i + 1][2 * i + 1] = oldState.d;
     }
     sigma[6][6] = 1;
-    result = (sigma.i()).t() * (inverse_model * diff_intensity);
+    result = sigma.t() * (inverse_model * diff_intensity);
+
+    //std::cout<<"sigma:\n"<<sigma<<"\n";
+    //std::cout<<"result:\n"<<result<<"\n";
 
     XVAffineState deltaMu;
     deltaMu.trans = XV2Vec<double> (-result[0], -result[1]);
-    deltaMu.a = result[2];
-    deltaMu.b = result[3];
-    deltaMu.c = result[4];
-    deltaMu.d = result[5];
+    deltaMu.a = -result[2];
+    deltaMu.b = -result[3];
+    deltaMu.c = -result[4];
+    deltaMu.d = -result[5];
 
     XVStatePair<XVAffineState, double> ret(deltaMu, error);
 
@@ -362,61 +384,61 @@ XVImageScalar<float> XVRTStepper<IM_TYPE >::warp(const IM_TYPE    & image,
     return (tmp);
 };
 
-///*********************************XVScalingStepper*********************************/
-//
-//
-//
-//template <class IM_TYPE>
-//void XVScalingStepper<IM_TYPE >::offlineInit() {
-//    XVImageScalar<float> XDx = X * Dx;
-//    XVImageScalar<float> YDy = Y * Dy;
-//
-//    forward_model = add_column(forward_model, XDx);
-//    forward_model = add_column(forward_model, YDy);
-//    forward_model = add_column(forward_model, target);
-//    inverse_model = (((forward_model.t() * forward_model).i()) * forward_model.t());
-//
-//};
-//
-//template <class IM_TYPE>
-//XVStatePair<XVScalingState, double>
-//XVScalingStepper<IM_TYPE >::step(const XVImageScalar<float>    & live_image,
-//                                 const XVScalingState & oldState) {
-//
-//    XVColVector result(3);
-//    XVMatrix sigma(3, 3);
-//    double error = 0.0;
-//
-//    diff_intensity << (XVBoxFilter(live_image - live_image.avg(), 3, 3) - target);
-//    check_outliers(diff_intensity, error);
-//
-//    sigma = 0;
-//    sigma[0][0] = 1.0 / oldState.scale;
-//    sigma[1][1] = 1.0 / ooldState.scale;
-//    sigma[2][2] = 1;
-//    result = sigma.t() * (inverse_model * diff_intensity);
-//
-//    XVScalingState deltaMu;
-//    deltaMu.trans = XV2Vec<double> (-result[0], -result[1]);
-//    deltaMu.angle = result[2];
-//
-//    XVStatePair<XVScalingState, double> ret(deltaMu, error);
-//
-//    return ret;
-//};
-//
-//template <class IM_TYPE>
-//XVImageScalar<float> XVScalingStepper<IM_TYPE >::warp(const IM_TYPE    & image,
-//        const XVScalingState & state) {
-//
-//    XVImageScalar<float> tmp;
-//    IM_TYPE warped_image = warpRect(image, (XVPosition) state.trans, size,
-//                                    state.angle);
-//    RGBtoScalar(warped_image, tmp);
-//
-//    return (tmp);
-//
-//};
+/*********************************XVScalingStepper*********************************/
+
+
+template <class IM_TYPE>
+void XVScalingStepper<IM_TYPE >::offlineInit() {
+    //XVImageScalar<float> XDx = X * Dx;
+    //XVImageScalar<float> YDy = Y * Dy;
+
+    XVImageScalar<float> XDxYDy = (X * Dx) + (Y * Dy);
+
+    forward_model = add_column(forward_model, XDxYDy);
+    inverse_model = (((forward_model.t() * forward_model).i()) * forward_model.t());
+
+    //std::cout<<"forward_model:\n"<<forward_model<<"\n";
+    //std::cout<<"inverse_model:\n"<<inverse_model<<"\n";
+};
+
+template <class IM_TYPE>
+XVStatePair<XVScalingState, double>
+XVScalingStepper<IM_TYPE >::step(const XVImageScalar<float>    & live_image,
+                                 const XVScalingState & oldState) {
+
+    XVColVector result(1);
+    XVMatrix sigma(1, 1);
+    double error = 0.0;
+
+    diff_intensity << (XVBoxFilter(live_image - live_image.avg(), 3, 3) - target);
+    check_outliers(diff_intensity, error);
+
+    result = oldState.scale * (inverse_model * diff_intensity);
+    //std::cout<<"diff_intensity:\n"<<diff_intensity<<"\n";
+    //std::cout<<"result: "<<result<<"\n";
+
+    XVScalingState deltaMu;
+    deltaMu.scale = result[0];
+    deltaMu.trans = XV2Vec<double> (0, 0);
+    deltaMu.angle = 0;
+
+    XVStatePair<XVScalingState, double> ret(deltaMu, error);
+
+    return ret;
+};
+
+template <class IM_TYPE>
+XVImageScalar<float> XVScalingStepper<IM_TYPE >::warp(const IM_TYPE    & image,
+        const XVScalingState & state) {
+
+    XVImageScalar<float> tmp;
+    IM_TYPE warped_image = warpRect(image, (XVPosition) state.trans, size,
+                                    state.angle, state.scale, state.scale, 0);
+    RGBtoScalar(warped_image, tmp);
+
+    return (tmp);
+
+};
 
 
 /*********************************XVRotateStepper*********************************/
@@ -582,6 +604,10 @@ template<> void scaleUp(XVRotateState& state, double x) {
     state.trans *= x ;
 }
 
+template<> void scaleUp(XVScalingState& state, double x) {
+    state.trans *= x ;
+}
+
 template<> void scaleUp(XVRTState& state, double x) {
     state.trans *= x ;
 }
@@ -589,7 +615,6 @@ template<> void scaleUp(XVRTState& state, double x) {
 template<> void scaleUp(XVSE2State& state, double x) {
     state.trans *= x ;
 }
-
 
 template<> void scaleUp(XVAffineState& state, double x) {
     state.trans *= x ;
@@ -663,367 +688,6 @@ XVSSD<IM_TYPE, STEPPER_TYPE>::step(const IM_TYPE & image_in) {
     return currentState;
 };
 
-///*********************************XVSSDHelper*********************************/
-//
-//namespace {
-//
-//template <class ST_TYPE>
-//struct XVSSDHelper {
-//};
-//
-///*********************************XVAffineState*********************************/
-//
-//
-//template<>
-//struct XVSSDHelper<XVAffineState> {
-//    template<class IM_TYPE, class STEPPER_TYPE>
-//    static void interactiveInit
-//    ( XVStatePair<XVAffineState,double>& currentState, STEPPER_TYPE& Stepper,
-//      XVInteractive& win, const IM_TYPE& im ) {
-//        XVPosition initULC;
-//        XVSize initSize;
-//        double initAngle;
-//        win.selectAngledRect(initULC, initSize, initAngle);
-//        XVAffineMatrix rotMat(initAngle);
-//        XV2Vec<double> initCenter = rotMat * XV2Vec<double>(initSize.Width() / 2,
-//                                    initSize.Height() / 2);
-//        currentState.state.trans = (initCenter + initULC);
-//        currentState.state.a = rotMat.a;
-//        currentState.state.b = rotMat.b;
-//        currentState.state.c = rotMat.c;
-//        currentState.state.d = rotMat.d;
-//        XVAffineMatrix warp_matrix(rotMat.a, rotMat.b, rotMat.c, rotMat.d);
-//        Stepper = STEPPER_TYPE(warpRect(im,
-//                                        currentState.state.trans,
-//                                        initSize,
-//                                        warp_matrix));
-//
-//        Stepper.offlineInit();
-//        currentState.error = 0.0;
-//    }
-//    template<class IM_TYPE, class STEPPER_TYPE>
-//    static void interactiveInit
-//    ( XVStatePair<XVAffineState,double>& currentState, STEPPER_TYPE& Stepper,
-//      XVInteractive& win, XVSize& size, const IM_TYPE& im ) {
-//        cerr << "not yet defined" << endl;
-//        exit(-1);
-//    }
-//    template<class STEPPER_TYPE>
-//    static void show
-//    ( XVStatePair<XVAffineState,double>& currentState, STEPPER_TYPE& Stepper,
-//      XVDrawable& x, float scale ) {
-//        XVPosition corners[4];
-//        XVAffineMatrix tformMat(currentState.state.a, currentState.state.b,
-//                                currentState.state.c, currentState.state.d);
-//
-//        XV2Vec<double> points[4];
-//        XV2Vec<double> tmpPoint = XV2Vec<double>(Stepper.getSize().Width() / 2,
-//                                  Stepper.getSize().Height() / 2);
-//        points[0] = - tmpPoint;
-//        points[1] = XV2Vec<double>(tmpPoint.PosX(), - tmpPoint.PosY());
-//        points[2] = tmpPoint;
-//        points[3] = XV2Vec<double>(- tmpPoint.PosX(), tmpPoint.PosY());
-//
-//        corners[0] = (tformMat * points[0]) + currentState.state.trans;
-//        corners[1] = (tformMat * points[1]) + currentState.state.trans;
-//        corners[2] = (tformMat * points[2]) + currentState.state.trans;
-//        corners[3] = (tformMat * points[3]) + currentState.state.trans;
-//
-//        for(int i=0; i<4; i++) corners[i].setX((int)(corners[i].x()/scale)),
-//                corners[i].setY((int)(corners[i].y()/scale));
-//        x.drawLine(corners[0], corners[1]);
-//        x.drawLine(corners[1], corners[2]);
-//        x.drawLine(corners[2], corners[3]);
-//        x.drawLine(corners[3], corners[0]);
-//    }
-//};
-//
-///*********************************XVSE2State*********************************/
-//
-//
-//template<>
-//struct XVSSDHelper<XVSE2State> {
-//    template<class IM_TYPE, class STEPPER_TYPE>
-//    static void interactiveInit
-//    ( XVStatePair<XVSE2State,double>& currentState, STEPPER_TYPE& Stepper,
-//      XVInteractive& win, const IM_TYPE& im ) {
-//        XVPosition initULC;
-//        XVSize initSize;
-//        double initAngle;
-//        win.selectAngledRect(initULC, initSize, initAngle);
-//        XVAffineMatrix rotMat(initAngle);
-//        XV2Vec<double> initCenter = rotMat * XV2Vec<double>(initSize.Width() / 2,
-//                                    initSize.Height() / 2);
-//        currentState.state.trans = (initCenter + initULC);
-//        currentState.state.angle = -initAngle;
-//        currentState.state.scale = 1;
-//        Stepper = STEPPER_TYPE(warpRect(im,
-//                                        currentState.state.trans,
-//                                        initSize,
-//                                        currentState.state.angle,
-//                                        currentState.state.scale,
-//                                        currentState.state.scale,
-//                                        0));
-//        Stepper.offlineInit();
-//        currentState.error = 0.0;
-//    }
-//    template<class IM_TYPE, class STEPPER_TYPE>
-//    static void interactiveInit
-//    ( XVStatePair<XVSE2State,double>& currentState, STEPPER_TYPE& Stepper,
-//      XVInteractive& win, XVSize& size, const IM_TYPE& im ) {
-//        cerr << "not yet defined" << endl;
-//        exit(-1);
-//    }
-//    template<class STEPPER_TYPE>
-//    static void show
-//    ( XVStatePair<XVSE2State,double>& currentState, STEPPER_TYPE& Stepper,
-//      XVDrawable& x, float scale ) {
-//        XVPosition corners[4];
-//        XVAffineMatrix angleMat(-currentState.state.angle);
-//        XVAffineMatrix scaleMat( 1 / currentState.state.scale,
-//                                 1 / currentState.state.scale);
-//        XVAffineMatrix tformMat((XVMatrix)scaleMat * (XVMatrix)angleMat);
-//
-//        XV2Vec<double> points[4];
-//        XV2Vec<double> tmpPoint = XV2Vec<double>(Stepper.getSize().Width() / 2,
-//                                  Stepper.getSize().Height() / 2);
-//        points[0] = - tmpPoint;
-//        points[1] = XV2Vec<double>(tmpPoint.PosX(), - tmpPoint.PosY());
-//        points[2] = tmpPoint;
-//        points[3] = XV2Vec<double>(- tmpPoint.PosX(), tmpPoint.PosY());
-//
-//        corners[0] = (tformMat * points[0]) + currentState.state.trans;
-//        corners[1] = (tformMat * points[1]) + currentState.state.trans;
-//        corners[2] = (tformMat * points[2]) + currentState.state.trans;
-//        corners[3] = (tformMat * points[3]) + currentState.state.trans;
-//
-//        for(int i=0; i<4; i++) corners[i].setX((int)(corners[i].x()/scale)),
-//                corners[i].setY((int)(corners[i].y()/scale));
-//        x.drawLine(corners[0], corners[1]);
-//        x.drawLine(corners[1], corners[2]);
-//        x.drawLine(corners[2], corners[3]);
-//        x.drawLine(corners[3], corners[0]);
-//    }
-//};
-//
-///*********************************XVRTState*********************************/
-//
-//template<>
-//struct XVSSDHelper<XVRTState> {
-//    template<class IM_TYPE, class STEPPER_TYPE>
-//    static void interactiveInit
-//    ( XVStatePair<XVRTState,double>& currentState, STEPPER_TYPE& Stepper,
-//      XVInteractive& win, const IM_TYPE& im ) {
-//        XVPosition initULC;
-//        XVSize initSize;
-//        double initAngle;
-//        win.selectAngledRect(initULC, initSize, initAngle);
-//        XVAffineMatrix rotMat(initAngle);
-//        XV2Vec<double> initCenter = rotMat * XV2Vec<double>(initSize.Width() / 2,
-//                                    initSize.Height() / 2);
-//        currentState.state.trans = (initCenter + initULC);
-//        currentState.state.angle = -initAngle;
-//        Stepper = STEPPER_TYPE(warpRect(im,
-//                                        currentState.state.trans,
-//                                        initSize,
-//                                        currentState.state.angle) );
-//        Stepper.offlineInit();
-//        currentState.error = 0.0;
-//    }
-//    template<class IM_TYPE, class STEPPER_TYPE>
-//    static void interactiveInit
-//    ( XVStatePair<XVRTState,double>& currentState, STEPPER_TYPE& Stepper,
-//      XVInteractive& win, XVSize& size, const IM_TYPE& im ) {
-//        cerr << "not yet defined" << endl;
-//        exit(-1);
-//    }
-//    template<class STEPPER_TYPE>
-//    static void show
-//    ( XVStatePair<XVRTState,double>& currentState, STEPPER_TYPE& Stepper,
-//      XVDrawable& x, float scale ) {
-//        XVPosition corners[4];
-//        XVAffineMatrix angleMat(-currentState.state.angle);
-//        XVAffineMatrix tformMat((XVMatrix)angleMat);
-//
-//        XV2Vec<double> points[4];
-//        XV2Vec<double> tmpPoint = XV2Vec<double>(Stepper.getSize().Width() / 2,
-//                                  Stepper.getSize().Height() / 2);
-//        points[0] = - tmpPoint;
-//        points[1] = XV2Vec<double>(tmpPoint.PosX(), - tmpPoint.PosY());
-//        points[2] = tmpPoint;
-//        points[3] = XV2Vec<double>(- tmpPoint.PosX(), tmpPoint.PosY());
-//
-//        corners[0] = (tformMat * points[0]) + currentState.state.trans;
-//        corners[1] = (tformMat * points[1]) + currentState.state.trans;
-//        corners[2] = (tformMat * points[2]) + currentState.state.trans;
-//        corners[3] = (tformMat * points[3]) + currentState.state.trans;
-//
-//        for(int i=0; i<4; i++) corners[i].setX((int)(corners[i].x()/scale)),
-//                corners[i].setY((int)(corners[i].y()/scale));
-//        x.drawLine(corners[0], corners[1]);
-//        x.drawLine(corners[1], corners[2]);
-//        x.drawLine(corners[2], corners[3]);
-//        x.drawLine(corners[3], corners[0]);
-//    }
-//};
-//
-///*********************************XVRotateState*********************************/
-//
-//template<>
-//struct XVSSDHelper<XVRotateState> {
-//    template<class IM_TYPE, class STEPPER_TYPE>
-//    static void interactiveInit
-//    ( XVStatePair<XVRotateState,double>& currentState, STEPPER_TYPE& Stepper,
-//      XVInteractive& win, const IM_TYPE& im ) {
-//        XVPosition initULC;
-//        XVSize initSize;
-//        double initAngle;
-//        win.selectAngledRect(initULC, initSize, initAngle);
-//        XVAffineMatrix rotMat(initAngle);
-//        XV2Vec<double> initCenter = rotMat * XV2Vec<double>(initSize.Width() / 2,
-//                                    initSize.Height() / 2);
-//        currentState.state.trans= (initCenter + initULC);
-//        currentState.state.angle= -initAngle;
-//        Stepper = STEPPER_TYPE( warpRect(im,
-//                                         currentState.state.trans,
-//                                         initSize,
-//                                         currentState.state.angle) );
-//        Stepper.offlineInit();
-//        currentState.error = 0.0;
-//    }
-//    template<class IM_TYPE, class STEPPER_TYPE>
-//    static void interactiveInit
-//    ( XVStatePair<XVRotateState,double>& currentState, STEPPER_TYPE& Stepper,
-//      XVInteractive& win, XVSize& size, const IM_TYPE& im ) {
-//        cerr << "not yet defined" << endl;
-//        exit(-1);
-//    }
-//    template<class STEPPER_TYPE>
-//    static void show
-//    ( XVStatePair<XVRotateState,double>& currentState, STEPPER_TYPE& Stepper,
-//      XVDrawable& x, float scale ) {
-//
-//        XVPosition corners[4];
-//        XVAffineMatrix angleMat(-currentState.state.angle);
-//        XVAffineMatrix tformMat((XVMatrix)angleMat);
-//
-//        XV2Vec<double> points[4];
-//        XV2Vec<double> tmpPoint = XV2Vec<double>(Stepper.getSize().Width() / 2,
-//                                  Stepper.getSize().Height() / 2);
-//        points[0] = - tmpPoint;
-//        points[1] = XV2Vec<double>(tmpPoint.PosX(), - tmpPoint.PosY());
-//        points[2] = tmpPoint;
-//        points[3] = XV2Vec<double>(- tmpPoint.PosX(), tmpPoint.PosY());
-//
-//        corners[0] = (tformMat * points[0]) + currentState.state.trans;
-//        corners[1] = (tformMat * points[1]) + currentState.state.trans;
-//        corners[2] = (tformMat * points[2]) + currentState.state.trans;
-//        corners[3] = (tformMat * points[3]) + currentState.state.trans;
-//
-//        for(int i=0; i<4; i++) corners[i].setX((int)(corners[i].x()/scale)),
-//                corners[i].setY((int)(corners[i].y()/scale));
-//        x.drawLine(corners[0], corners[1]);
-//        x.drawLine(corners[1], corners[2]);
-//        x.drawLine(corners[2], corners[3]);
-//        x.drawLine(corners[3], corners[0]);
-//
-//    }
-//};
-//
-///*********************************XVTransState*********************************/
-//
-//template <>
-//struct XVSSDHelper<XVTransState> {
-//    template<class IM_TYPE, class STEPPER_TYPE>
-//    static void interactiveInit
-//    ( XVStatePair<XVTransState,double>& currentState, STEPPER_TYPE& Stepper,
-//      XVInteractive& win, const IM_TYPE& im ) {
-//        XVROI roi;
-//        win.selectRectangle(roi);
-//        IM_TYPE tmpl = subimage(im, roi);
-//        Stepper = STEPPER_TYPE(tmpl);
-//        Stepper.offlineInit();
-//        XV2Vec<double> center;
-//        center.setX(roi.Width()  );
-//        center.setY(roi.Height() );
-//        currentState.state = (XV2Vec<double>)roi + center;
-//        currentState.error = 0.0;
-//    }
-//    template<class IM_TYPE, class STEPPER_TYPE>
-//    static void interactiveInit
-//    ( XVStatePair<XVTransState,double>& currentState, STEPPER_TYPE& Stepper,
-//      XVInteractive& win, XVSize& size, const IM_TYPE& im ) {
-//        XVROI roi;
-//        win.selectSizedRect(roi,size);
-//        IM_TYPE tmpl = subimage(im, roi);
-//        Stepper = STEPPER_TYPE(tmpl);
-//        Stepper.offlineInit();
-//        XV2Vec<double> center;
-//        center.setX(roi.Width()/2  );
-//        center.setY(roi.Height()/2 );
-//        currentState.state = (XV2Vec<double>)roi + center;
-//        currentState.error = 0.0;
-//    }
-//    template<class STEPPER_TYPE>
-//#ifndef NOVIS
-//    static void show
-//    ( XVStatePair<XVTransState,double>& currentState, STEPPER_TYPE& Stepper,
-//      XVDrawable& x,float scale ) {
-//
-//        XVPosition corners[4];
-//        XV2Vec<double> points[4];
-//        XV2Vec<double> tmpPoint = XV2Vec<double>(Stepper.getSize().Width() / 2,
-//                                  Stepper.getSize().Height() / 2);
-//
-//        points[0] = - tmpPoint;
-//        points[1] = XV2Vec<double>(tmpPoint.PosX(), - tmpPoint.PosY());
-//        points[2] = tmpPoint;
-//        points[3] = XV2Vec<double>(- tmpPoint.PosX(), tmpPoint.PosY());
-//
-//        for(int i=0; i<4; ++i)
-//            corners[i] = points[i] + currentState.state;
-//
-//        for(int i=0; i<4; i++) corners[i].setX((int)(corners[i].x()/scale)),
-//                corners[i].setY((int)(corners[i].y()/scale));
-//
-//        x.drawLine(corners[0], corners[1]);
-//        x.drawLine(corners[1], corners[2]);
-//        x.drawLine(corners[2], corners[3]);
-//        x.drawLine(corners[3], corners[0]);
-//    }
-//};
-//#endif
-//}
-
-///*********************************XVSSD*********************************/
-//
-//template <class IM_TYPE, class STEPPER_TYPE>
-//const XVStatePair<typename STEPPER_TYPE::STATE_TYPE, double> &
-//XVSSD<IM_TYPE, STEPPER_TYPE>::interactiveInit
-//( XVInteractive & win, const IM_TYPE & im ) {
-//    XVSSDHelper<STATE_TYPE>::interactiveInit( currentState, Stepper, win, im );
-//    return prevState = currentState ;
-//}
-//
-//template <class IM_TYPE, class STEPPER_TYPE>
-//const XVStatePair<typename STEPPER_TYPE::STATE_TYPE, double> &
-//XVSSD<IM_TYPE, STEPPER_TYPE>::interactiveInit
-//( XVInteractive & win, XVSize& size, const IM_TYPE & im ) {
-//    XVSSDHelper<STATE_TYPE>::interactiveInit( currentState, Stepper,win,size,im);
-//    return prevState = currentState ;
-//}
-//
-//template <class IM_TYPE, class STEPPER_TYPE>
-//void XVSSD<IM_TYPE, STEPPER_TYPE>::show( XVDrawable& x ,float scale) {
-//    XVSSDHelper<STATE_TYPE>::show( currentState, Stepper, x,scale );
-//}
-//template<class IM_TYPE, class STEPPER_TYPE>
-//void XVSSD<IM_TYPE,STEPPER_TYPE>::setStepper(
-//    const STEPPER_TYPE& stepper_in) {
-//    Stepper = stepper_in ;
-//    Stepper.offlineInit();
-//}
-
 /*********************************_REGISTER_STEPPERS_*********************************/
 
 #include <XVFeature.h>
@@ -1031,18 +695,26 @@ XVSSD<IM_TYPE, STEPPER_TYPE>::step(const IM_TYPE & image_in) {
 #define _REGISTER_STEPPERS_(_IM_TYPE_) \
 template class XVTransStepper<_IM_TYPE_ >; \
 template class XVRotateStepper<_IM_TYPE_ >; \
+template class XVScalingStepper<_IM_TYPE_ >; \
 template class XVRTStepper<_IM_TYPE_ >; \
 template class XVAffineStepper<_IM_TYPE_ >; \
 template class XVSE2Stepper<_IM_TYPE_ >;
 
 template class XVPyramidStepper<XVTransStepper<XVImageRGB<XV_RGB24> > >;
 template class XVPyramidStepper<XVTransStepper<XVImageRGB<XV_RGBA32> > >;
-template class XVPyramidStepper<XVRTStepper<XVImageRGB<XV_RGB24> > >;
-template class XVPyramidStepper<XVRTStepper<XVImageRGB<XV_RGBA32> > >;
+
 template class XVPyramidStepper<XVRotateStepper<XVImageRGB<XV_RGB24> > >;
 template class XVPyramidStepper<XVRotateStepper<XVImageRGB<XV_RGBA32> > >;
+
+template class XVPyramidStepper<XVScalingStepper<XVImageRGB<XV_RGB24> > >;
+template class XVPyramidStepper<XVScalingStepper<XVImageRGB<XV_RGBA32> > >;
+
+template class XVPyramidStepper<XVRTStepper<XVImageRGB<XV_RGB24> > >;
+template class XVPyramidStepper<XVRTStepper<XVImageRGB<XV_RGBA32> > >;
+
 template class XVPyramidStepper<XVAffineStepper<XVImageRGB<XV_RGB24> > >;
 template class XVPyramidStepper<XVAffineStepper<XVImageRGB<XV_RGBA32> > >;
+
 template class XVPyramidStepper<XVSE2Stepper<XVImageRGB<XV_RGB24> > >;
 template class XVPyramidStepper<XVSE2Stepper<XVImageRGB<XV_RGBA32> > >;
 //_REGISTER_STEPPERS_(XVImageScalar<int>);
@@ -1073,7 +745,9 @@ _REGISTER_XVSSD_(_STEPPER_TYPE_, _STATE_TYPE_, XVImageRGB<XV_RGBA32>);
 
 _REGISTER_XVSSD_SCALAR_(XVTransStepper, XVTransState);
 _REGISTER_XVSSD_SCALAR_(XVRotateStepper,    XVRotateState);
+_REGISTER_XVSSD_SCALAR_(XVScalingStepper,    XVScalingState);
 _REGISTER_XVSSD_SCALAR_(XVRTStepper,    XVRTState);
 _REGISTER_XVSSD_SCALAR_(XVSE2Stepper,   XVSE2State);
 _REGISTER_XVSSD_SCALAR_(XVAffineStepper,   XVAffineState);
+
 

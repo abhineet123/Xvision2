@@ -297,9 +297,9 @@ XVMatrix::operator/=(FrReal x)
 }
 
 XVMatrix
-XVMatrix::operator*(FrReal x) 
+XVMatrix::operator*(FrReal x)
 {
-  
+
   XVMatrix v(rowNum,colNum);
   int i;int j;
   for (i=0;i<rowNum;i++)

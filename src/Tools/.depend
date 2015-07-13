@@ -626,21 +626,24 @@ XVStereoRectify.o: XVStereoRectify.cc /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /opt/intel/composer_xe_2015.0.090/ipp/include/ippi.h \
- /opt/intel/composer_xe_2015.0.090/ipp/include/ippdefs.h \
+ /opt/intel/composer_xe_2015/ipp/include/ippi.h \
+ /opt/intel/composer_xe_2015/ipp/include/ippdefs.h \
+ /opt/intel/composer_xe_2015/ipp/include/ipps.h \
  ../..//include/XVImageIterator.h ../..//include/XVImageRGB.icc \
  ../..//include/XVImageScalar.h ../..//include/XVImageScalar.icc \
  ../..//include/XVImageFilters.icc ../..//include/XVImageIO.icc \
- XVStereoRectify.h /opt/intel/composer_xe_2015.0.090/ipp/include/ippcv.h \
+ XVStereoRectify.h /opt/intel/composer_xe_2015/ipp/include/ippcv.h \
  XVMatrix.h XVMatrix.icc XVStereoRectifyTypes.h camera_config.h \
- /usr/local/include/opencv2/core/core.hpp /usr/local/include/opencv2/core/types_c.h \
+ /usr/local/include/opencv2/core/core.hpp \
+ /usr/local/include/opencv2/core/types_c.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/emmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/xmmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/mmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/mm_malloc.h \
- /usr/local/include/opencv2/core/version.hpp /usr/include/c++/4.8/algorithm \
- /usr/include/c++/4.8/utility /usr/include/c++/4.8/bits/stl_relops.h \
+ /usr/local/include/opencv2/core/version.hpp \
+ /usr/include/c++/4.8/algorithm /usr/include/c++/4.8/utility \
+ /usr/include/c++/4.8/bits/stl_relops.h \
  /usr/include/c++/4.8/bits/stl_algo.h /usr/include/c++/4.8/cstdlib \
  /usr/include/c++/4.8/bits/algorithmfwd.h \
  /usr/include/c++/4.8/bits/stl_heap.h \
@@ -655,12 +658,13 @@ XVStereoRectify.o: XVStereoRectify.cc /usr/include/stdc-predef.h \
  /usr/include/c++/4.8/bits/stl_vector.h \
  /usr/include/c++/4.8/bits/stl_bvector.h \
  /usr/include/c++/4.8/bits/vector.tcc \
- /usr/local/include/opencv2/core/operations.hpp /usr/include/c++/4.8/limits \
- /usr/local/include/opencv2/core/mat.hpp \
+ /usr/local/include/opencv2/core/operations.hpp \
+ /usr/include/c++/4.8/limits /usr/local/include/opencv2/core/mat.hpp \
  /usr/local/include/opencv2/highgui/highgui.hpp \
  /usr/local/include/opencv2/highgui/highgui_c.h \
  /usr/local/include/opencv2/core/core_c.h \
  /usr/local/include/opencv2/calib3d/calib3d.hpp \
  /usr/local/include/opencv2/features2d/features2d.hpp \
  /usr/local/include/opencv2/flann/miniflann.hpp \
- /usr/local/include/opencv2/flann/defines.h /usr/local/include/opencv2/flann/config.h
+ /usr/local/include/opencv2/flann/defines.h \
+ /usr/local/include/opencv2/flann/config.h

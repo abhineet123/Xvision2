@@ -22,6 +22,7 @@ template <class IMTYPE>
 IMTYPE * XVVideo<IMTYPE>::init_map(XVSize &size, int n_frames) {
   if(own_buffers && image_buffers) delete [] image_buffers;
   //image_buffers=new IMTYPE[n_frames](size.Width(),size.Height());
+  this->size=size;
   image_buffers=new IMTYPE[n_frames];
   for( int i = 0 ; i < n_frames ; i ++ ) {
     image_buffers[i].resize( size.Width(), size.Height() );
