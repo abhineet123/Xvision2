@@ -17,9 +17,8 @@ If you get an error like:
  ../src/Images/XVImageRGB.h
 
 This means that the synbolic link files in the "include" folder are being treated as ordinary header files. 
-This is usually because the disk where your xvision2 folder resides has a file system (like FAT32 or NTFS) does not support symbolic links.You can either move it to a linux supported filesystem (like ext3) 
+This is usually because the disk where your xvision2 folder resides has a file system (like FAT32 or NTFS) that does not support symbolic links.You can either move it to a linux supported filesystem (like ext3) 
 or replace all the .h files in the "include" folder with the actual header files whose location they contain.
 
   
-DO NOT run 'make config'    
-               
+DO NOT run 'make config'
